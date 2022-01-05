@@ -18,6 +18,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
       type: "categories"
     values:
       layout: "category"
@@ -32,7 +38,7 @@ defaults:
 collections:
   pages:
     output: true
-  documents:
+  posts:
     output: true
   categories:
     output: true

@@ -1,0 +1,63 @@
+url: https://labs.noesya.coop
+title: Labs Noesya
+subdomain: Labs
+lang: fr
+
+theme: jekyll-theme-noesya
+options:
+  menu_burger: true
+  notes: true
+  hover_navigation_links: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  -
+    scope:
+      path: ""
+      type: "years"
+    values:
+      layout: "year"
+
+
+collections:
+  pages:
+    output: true
+  documents:
+    output: true
+  categories:
+    output: true
+    permalink: /:title
+  years:
+    output: true
+    permalink: /:title/
+
+plugins:
+  - jekyll-minifier
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  load_paths:
+      - _sass
+      - node_modules
+
+jekyll-minifier:
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_intertag_spaces: true
+  remove_comments: true
+  compress_css: false
+  compress_javascript: true
+
+picture:
+  ignore_missing_images: true

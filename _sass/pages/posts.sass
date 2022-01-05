@@ -1,0 +1,69 @@
+.posts
+    header
+        div + div
+            display: none
+            @include media-breakpoint-up(md)
+                display: block
+                text-align: center
+        @include media-breakpoint-up(md)
+            align-items: center
+            display: flex
+            div
+                flex: 1
+                & + div
+                    margin-bottom: 50px
+                    padding-top: 250px
+            .icon
+                &::before
+                    font-size: px2rem(60)
+        @include media-breakpoint-up(lg)
+            div + div
+                margin-bottom: 125px
+            .icon
+                &::before
+                    font-size: px2rem(114)
+    header + div
+        @include container
+        h2
+            font-family: $font-family-serif
+            font-size: px2rem(25)
+            font-weight: 400
+            margin-bottom: $grid-gutter
+    ul
+        display: flex
+        flex-wrap: wrap
+        margin-bottom: $grid-gutter*2
+    li
+        margin-bottom: 20px
+        margin-right: 20px
+        a
+            @include tag
+            transition: background .3s ease, color .3s ease
+            &:hover
+                background-color: $black
+                color: $white
+                @media (prefers-color-scheme: dark)
+                    background-color: $white
+                    color: $black
+    section
+        @include grid(2)
+        @include media-breakpoint-up(md)
+            grid-gap: 40px 40px
+        @include media-breakpoint-up(lg)
+            grid-template-columns: repeat(3, 1fr)
+        @include media-breakpoint-up(xl)
+            grid-template-columns: repeat(4, 1fr)
+        a
+            @include button
+            padding: 30px
+            div:first-child
+                @include picto
+            @include media-breakpoint-down(sm)
+                display: flex
+                margin-bottom: $grid-gutter
+                padding-left: 15px
+                div:first-of-type
+                    flex: 1
+                div:last-of-type
+                    flex: 2
+                    padding-left: 15px

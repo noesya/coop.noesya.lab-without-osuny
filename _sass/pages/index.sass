@@ -1,0 +1,17 @@
+.index
+    background-image: url('../images/chouette/crop.png')
+    background-position: 96% bottom
+    background-repeat: no-repeat
+    @include media-breakpoint-up(md)
+        background-attachment: fixed
+    @media (min-width: $grid-width + $grid-gutter * 8)
+        background-position: calc(100vw - 600px) bottom
+    header
+        @include grid(12)
+        min-height: 100vh
+        @include media-breakpoint-up(md)
+            padding-bottom: 100px
+        padding-bottom: 180px
+        position: relative
+        div:first-child
+            grid-column: 1/9

@@ -5,23 +5,22 @@ year: 2022
 sections:
     - title: Avec la participation de...
       content: >
-        *Alexis Benoit*<br>
-        Creative developer, co-fondateur et co-gérant de <a href="https://www.noesya.coop/equipe/alexis-benoit" target="_blank" rel="nofollow">noesya</a>
+        *Alexis Benoit* —
+        Creative developer, co-fondateur et co-gérant de
+        <a href="https://www.noesya.coop/equipe/alexis-benoit" target="_blank" rel="nofollow">noesya</a><br>
 
+        *Nicolas Pariès* —
+        Co-fondateur de <a href="https://www.heylow.world" target="_blank" rel="nofollow">Hey Low</a>
+        et <a href="https://lowww.directory" target="_blank" rel="nofollow">lowww.directory</a><br>
 
-        *Nicolas Pariès*<br>
-        Fondateur de <a href="https://www.heylow.world" target="_blank" rel="nofollow">Hey Low</a>
+        *Jean-Frédéric Passot* —
+        Fondateur de <a href="https://www.cher-ami.tv" target="_blank" rel="nofollow">Cher ami</a><br>
 
+        *Antoine Wodniack* —
+        Senior front end developer, <a href="https://wodniack.dev/" target="_blank" rel="nofollow">wodniack.dev</a><br>
 
-        *Jean-Frédéric Passot*<br>
-        Fondateur de <a href="https://www.cher-ami.tv" target="_blank" rel="nofollow">Cher ami</a>
-
-
-        *Antoine Wodniack*<br>
-        Senior front end developer, <a href="https://wodniack.dev/" target="_blank" rel="nofollow">wodniack.dev</a>
-
-
-        Animé par *Arnaud Levy*, développeur back et co-fondateur de <a href="https://www.noesya.coop/equipe/arnaud-levy" target="_blank" rel="nofollow">noesya</a>
+        Animé par *Arnaud Levy* — développeur back et co-fondateur de
+        <a href="https://www.noesya.coop/equipe/arnaud-levy" target="_blank" rel="nofollow">noesya</a>
     - title: Programme
       content: >
         *Qu'est-ce qu'une expérience interactive ?*<br>
@@ -33,8 +32,9 @@ sections:
 
 
         *Comment faire bien (ou moins mal) ?*<br>
-        Après avoir remporté plus de 100 prix pour des expériences interactive, les participants partageront leurs idées créatives, leurs analyses techniques et leurs réflexions opérationnelles sur la sobriété numérique. Quels outils pour mesurer les problèmes ? Vidéo, 3D, images, sons, VR, AR, data-visualisation, quelle est l'empreinte environnementale des technologies de narration interactives ? Quelles méthodes mettre en œuvre pour optimiser leur impact ? Enfin, comment faire de belles expériences sobres ?
+        Après avoir remporté plus de 100 prix pour des expériences interactive, les participants partageront leurs idées créatives, leurs analyses techniques et leurs réflexions opérationnelles sur la sobriété numérique. Quels outils pour mesurer les problèmes ? Vidéo, 3D, images, sons, VR, AR, data-visualisation, quelle est l'empreinte environnementale des différents outils de narration interactives ? Quelles méthodes mettre en œuvre pour optimiser leur impact ? Enfin, comment faire de belles expériences sobres ?
     - title: Infos pratiques
       content: >
-        Mardi 1<sup>er</sup> février, de 15h à 16h30 sur <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
+        Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
+        <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
 ---

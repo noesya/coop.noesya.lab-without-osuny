@@ -19,7 +19,7 @@ sections:
         *Antoine Wodniack* —
         Senior front end developer, <a href="https://wodniack.dev/" target="_blank" rel="nofollow">wodniack.dev</a><br>
 
-        Animé par *Arnaud Levy* — développeur back et co-fondateur de
+        Animé par *Arnaud Levy* — Développeur back et co-fondateur de
         <a href="https://www.noesya.coop/equipe/arnaud-levy" target="_blank" rel="nofollow">noesya</a>
     - title: Programme
       content: >

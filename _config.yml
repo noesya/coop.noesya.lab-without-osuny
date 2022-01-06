@@ -8,6 +8,7 @@ options:
   menu_burger: true
   notes: true
   hover_navigation_links: true
+  no_js: false
 
 defaults:
   -

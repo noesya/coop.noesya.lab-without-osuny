@@ -1,4 +1,22 @@
 ---
-layout: page
+layout: default
 class: page post
 ---
+
+<header>
+  <div>
+    {% assign category = site.categories | where: 'slug', page.category | first %}
+    <p class="h1">{{ category.title }}</p>
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
+
+{% if page.sections %}
+  {% include sections-with-notes.html %}
+{% endif %}
+
+{% if content != "" %}
+<section>
+  {{ content }}
+</section>
+{% endif %}

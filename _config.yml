@@ -41,12 +41,13 @@ collections:
     output: true
   posts:
     output: true
+    permalink: /:year/:title
   categories:
     output: true
     permalink: /:title
   years:
     output: true
-    permalink: /:title/
+    permalink: /:title
 
 plugins:
   - jekyll-minifier

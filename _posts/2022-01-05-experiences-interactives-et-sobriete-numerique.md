@@ -9,6 +9,9 @@ sections:
         Creative developer, co-fondateur et co-gérant de
         <a href="https://www.noesya.coop/equipe/alexis-benoit" target="_blank" rel="nofollow">noesya</a><br>
 
+        *Lara Jane Lelièvre* —
+        Digital Innovation, <a href="https://betcfullsix.com" target="_blank" rel="nofollow">BETC FULLSIX</a><br>
+
         *Nicolas Pariès* —
         Co-fondateur de <a href="https://www.heylow.world" target="_blank" rel="nofollow">Hey Low</a>
         et <a href="https://lowww.directory" target="_blank" rel="nofollow">lowww.directory</a><br>

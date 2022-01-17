@@ -45,7 +45,7 @@ sections:
         La masterclass est soutenue gracieusement par :
         cher ami
         créasenso
-        yz.paris
         Hey Low
-
+        noesya
+        yz.paris
 ---

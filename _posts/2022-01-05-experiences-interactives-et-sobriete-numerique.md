@@ -40,4 +40,11 @@ sections:
       content: >
         Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
         <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
+    - title: Partenaires
+      content: >
+        La masterclass est soutenue gracieusement par :
+        cher ami
+        créasenso
+        yz.paris
+
 ---

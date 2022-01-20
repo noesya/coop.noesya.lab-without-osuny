@@ -21,7 +21,8 @@ class: page post
 </section>
 {% endif %}
 
-{% if content != "" %}
+{% assign content = post.content | strip_newlines %}
+{% if content != "" and content != null %}
 <section>
   {{ content }}
 </section>

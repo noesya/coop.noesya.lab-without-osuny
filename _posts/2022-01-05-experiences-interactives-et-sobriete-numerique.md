@@ -40,12 +40,28 @@ sections:
       content: >
         Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
         <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
-    - title: Partenaires
-      content: >
-        La masterclass est soutenue gracieusement par :
-        cher ami
-        créasenso
-        Hey Low
-        noesya
-        yz.paris
+    
+partners:
+  title: Partenaires
+  text: >
+    La masterclass est soutenue gracieusement par :
+  items:
+    - title: Awwwards
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/awwwards.svg
+      link: https://www.awwwards.com/
+    - title: Cher Ami
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/cher-ami.svg
+      link: https://www.cher-ami.tv/
+    - title: Creasenso
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/creasenso.svg
+      link: https://www.creasenso.com/
+    - title: Hey Low
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/hey-low.svg
+      link: https://www.heylow.world/
+    - title: YZ Paris
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/yz-paris.svg
+      link: https://yz-paris.com/
+    - title: Noesya
+      logo: https://assets.noesya.coop/images/logos/logo-noesya.svg
+      link: https://noesya.coop/
 ---

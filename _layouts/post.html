@@ -15,6 +15,12 @@ class: page post
   {% include sections-with-notes.html %}
 {% endif %}
 
+{% if page.partners %}
+<section>
+  {% include partners.html %}
+</section>
+{% endif %}
+
 {% if content != "" %}
 <section>
   {{ content }}

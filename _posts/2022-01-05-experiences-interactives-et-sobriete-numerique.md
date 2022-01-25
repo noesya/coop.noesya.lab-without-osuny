@@ -40,7 +40,7 @@ sections:
       content: >
         Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
         <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
-    
+
 partners:
   title: Partenaires
   text: >
@@ -58,6 +58,9 @@ partners:
     - title: Hey Low
       logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/hey-low.svg
       link: https://www.heylow.world/
+    - title: Institut du Numérique Responsable
+      logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/inr.png
+      link: https://institutnr.org/
     - title: YZ Paris
       logo: /assets/images/posts/2022-01-05-experiences-interactives-et-sobriete-numerique/yz-paris.svg
       link: https://yz-paris.com/

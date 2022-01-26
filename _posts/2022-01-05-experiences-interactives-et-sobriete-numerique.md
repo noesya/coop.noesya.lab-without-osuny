@@ -37,9 +37,11 @@ sections:
         *Comment faire bien (ou moins mal) ?*<br>
         Après avoir remporté plus de 100 prix pour des expériences interactive, les participants partageront leurs idées créatives, leurs analyses techniques et leurs réflexions opérationnelles sur la sobriété numérique. Quels outils pour mesurer les problèmes ? Vidéo, 3D, images, sons, VR, AR, data-visualisation, quelle est l'empreinte environnementale des différents outils de narration interactives ? Quelles méthodes mettre en œuvre pour optimiser leur impact ? Enfin, comment faire de belles expériences sobres ?
     - title: Infos pratiques
-      content: >
+      content: |
         Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
         <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
+
+        S'inscrire à l'événement : <a href="https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/">https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/</a>
 
 partners:
   title: Partenaires

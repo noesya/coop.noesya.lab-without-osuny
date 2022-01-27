@@ -1,0 +1,46 @@
+h3
+    font-size: px2rem(22)
+    line-height: 1.4
+    margin-bottom: $grid-gutter
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(30)
+
+// Engagements
+p + h2, ul + h2
+    margin-top: $grid-gutter * 4
+
+// La plupart des textes
+p, li, dl
+    font-size: px2rem(14)
+    line-height: px2rem(24)
+    section &
+        font-size: px2rem(19)
+        line-height: px2rem(30)
+
+// Notes
+aside
+    p
+        font-size: px2rem(14)
+        line-height: px2rem(24)
+        @include media-breakpoint-up(lg)
+            font-size: px2rem(16)
+            line-height: px2rem(28)
+
+// Chapitres métiers et équipe
+p, ul li
+    section > &
+        font-size: px2rem(20)
+        line-height: px2rem(32)
+        @include media-breakpoint-up(lg)
+            font-size: px2rem(25)
+            line-height: px2rem(45)
+
+section
+    p, ul
+        margin-bottom: $grid-gutter * 2
+    ul
+        list-style-type: circle
+        padding-left: $grid-gutter
+    pre[class*=language-]
+        margin-bottom: $grid-gutter * 2
+

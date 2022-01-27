@@ -1,3 +1,5 @@
 {% for post in posts %}
-  {% include post.html post=post %}
+  {% unless post.draft %}
+    {% include post.html post=post %}
+  {% endunless %}
 {% endfor %}

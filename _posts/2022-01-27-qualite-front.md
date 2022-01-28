@@ -61,15 +61,15 @@ sections:
       content: |
         Ce niveau est facile à développer et à maintenir, tolérant sur la performance et sur le bruit. Il est très adapté pour les back-offices, par exemple.
 
-        [Découvrir le Double-A en détail](/2022/qualite-front-a)
+        [Découvrir le niveau A en détail](/2022/qualite-front-a)
     - title: Niveau AA, la bonne qualité SEO
       content: |
         Ce niveau est optimisé, très performant, mais tolérant sur le bruit HTML.
 
-        [Découvrir le Double-A en détail](/2022/qualite-front-aa)
+        [Découvrir le niveau Double-A en détail](/2022/qualite-front-aa)
     - title: Niveau AAA, le balisage pur et parfait
       content: |
         Ce niveau ne tolère aucun compromis de qualité.
 
-        [Découvrir le Triple-A en détail](/2022/qualite-front-aaa)
+        [Découvrir le niveau Triple-A en détail](/2022/qualite-front-aaa)
 ---

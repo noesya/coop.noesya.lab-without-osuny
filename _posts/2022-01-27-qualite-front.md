@@ -15,7 +15,7 @@ sections:
       notes:
         - title: La naissance du Web
           url: https://home.cern/fr/science/computing/birth-web
-    - title: Les enjeux de la qualité HTML
+    - title: Les enjeux de la qualité Front-end
       content: |
         Opquast
         Accessibilité (RGAA)

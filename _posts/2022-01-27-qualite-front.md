@@ -9,7 +9,7 @@ sections:
       content: |
         Le World Wide Web créé par Tim Berners-Lee en 1989 au CERN<sup><a href="#note-1">1</a></sup> s'appuie sur 3 technologies : URL, HTTP et HTML. Notre proposition se concentre sur cette troisième technologie, l'HTML, qui est toujours omniprésente et qui détermine la qualité de l'expérience Web.
 
-        En tant que développeurs Web, nous produisons de l'HTML tous les jours. Nous avons à cœur de produire le meilleure code HTML possible, ce qui implique de définir ce qu'est un excellent code HTML. Pour cela, nous introduisons dans cet article la notion de *balisage pur et parfait* qui dessine un étalon de qualité en termes d'accessibilité, de sémantique, d'empreinte écologique, de performance et de minimisation du bruit.
+        En tant que développeurs Web, nous produisons de l'HTML tous les jours. Nous avons à cœur de produire le meilleure code HTML possible, ce qui implique de définir ce qu'est un excellent code HTML. Pour cela, nous introduisons dans cet article la notion de *balisage pur et parfait* qui dessine un étalon de qualité en termes d'accessibilité, de sémantique, d'empreinte écologique, de performance et de minimisation du bruit. Nous ne prétendons pas produire un balisage pur et parfait, c'est un chantier qui devra être coopératif et évolutif. En revanche nous affirmons que le notion est nécessaire pour tendre vers un idéal, qui n'est aujourd'hui pas défini et pas consensuel.
 
         Afin d'adresser de façon différenciée les projets Web en fonction de leur nature (information / action / émotion) et de leurs usages (public / privé), nous proposons un classement en trois niveaux, inspiré du jeu vidéo. Le niveau *A* fixe un standard minimum acceptable, pertinent pour les usages privés de type back-office. Le niveau *AA*, ou *double-A*, fixe un standard correct pour la plupart des productions Web. Le niveau *AAA*, ou *triple-A*, fixe le standard d'excellence absolu, le *balisage pur et parfait*.
       notes:
@@ -57,12 +57,12 @@ sections:
 
         L'accès au site est-il public ou privé ? Le site doit-il se positionner sur les moteurs de recherches ?
 
-    - title: Niveau A
+    - title: Niveau A, le minimum pratique
       content: |
-        Ce niveau est facile à développer et à maintenir et tolérant sur la performance et sur le bruit. Il est très adapté pour les back-offices, par exemple.
+        Ce niveau est facile à développer et à maintenir, tolérant sur la performance et sur le bruit. Il est très adapté pour les back-offices, par exemple.
 
         [Découvrir le Double-A en détail](/2022/qualite-front-a)
-    - title: Niveau AA
+    - title: Niveau AA, la bonne qualité SEO
       content: |
         Ce niveau est optimisé, très performant, mais tolérant sur le bruit HTML.
 

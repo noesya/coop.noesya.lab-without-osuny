@@ -9,10 +9,12 @@ sections:
       content: |
         Le World Wide Web créé par Tim Berners-Lee en 1989 au CERN<sup><a href="#note-1">1</a></sup> s'appuie sur 3 technologies : URL, HTTP et HTML. Notre proposition se concentre sur cette troisième technologie, l'HTML, qui est toujours omniprésente et qui détermine la qualité de l'expérience Web.
 
-        En tant que développeurs Web, nous produisons de l'HTML tous les jours. Nous avons à cœur de produire le meilleure code HTML possible, ce qui implique de définir ce qu'est un excellent code HTML. Pour cela, nous introduisons dans cet article la notion de *balisage pur et parfait* qui dessine un étalon de qualité en termes d'accessibilité, de sémantique et de minimisation du bruit. Afin d'adresser de façon différenciée les projets Web en fonction de leur nature (information / action / émotion) et de leurs usages (public / privé), nous proposons un classement en trois niveaux, inspiré du jeu vidéo. Le niveau *A* fixe un standard minimum acceptable, pertinent pour les usages privés de type back-office. Le niveau *AA*, ou *double-A*, fixe un standard correct pour la plupart des productions Web. Le niveau *AAA*, ou *triple-A*, fixe le standard d'excellence absolu, le *balisage pur et parfait*.
+        En tant que développeurs Web, nous produisons de l'HTML tous les jours. Nous avons à cœur de produire le meilleure code HTML possible, ce qui implique de définir ce qu'est un excellent code HTML. Pour cela, nous introduisons dans cet article la notion de *balisage pur et parfait* qui dessine un étalon de qualité en termes d'accessibilité, de sémantique, d'empreinte écologique, de performance et de minimisation du bruit.
+
+        Afin d'adresser de façon différenciée les projets Web en fonction de leur nature (information / action / émotion) et de leurs usages (public / privé), nous proposons un classement en trois niveaux, inspiré du jeu vidéo. Le niveau *A* fixe un standard minimum acceptable, pertinent pour les usages privés de type back-office. Le niveau *AA*, ou *double-A*, fixe un standard correct pour la plupart des productions Web. Le niveau *AAA*, ou *triple-A*, fixe le standard d'excellence absolu, le *balisage pur et parfait*.
       notes:
-        title: La naissance du Web
-        url: https://home.cern/fr/science/computing/birth-web
+        - title: La naissance du Web
+          url: https://home.cern/fr/science/computing/birth-web
     - title: Quels sont les enjeux de la qualité HTML ?
       content: |
         Opquast
@@ -199,7 +201,7 @@ sections:
           </nav>
         ```
 
-    - title: AAA (qualité supérieure)
+    - title: Niveau AAA, le balisage pur et parfait
       content: |
         ### Description
 

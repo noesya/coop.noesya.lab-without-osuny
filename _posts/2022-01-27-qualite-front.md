@@ -1,14 +1,33 @@
 ---
-title: Recherches et réflexions sur la qualité front
+title: |
+  Qualité HTML : à la recherche du AAA
 draft: true
 category: rd
 year: 2022
 sections:
-    - title: Questionnement
+    - title: Abstract
       content: |
-        Qu’est-ce que la qualité front ? Comment définir des règles et critères qui permettent d'évaluer cette qualité ? Comment faire au mieux en fonction du contexte ?
+        Le World Wide Web créé par Tim Berners-Lee en 1989 au CERN<sup><a href="#note-1">1</a></sup> s'appuie sur 3 technologies : URL, HTTP et HTML. Notre proposition se concentre sur cette troisième technologie, l'HTML, qui est toujours omniprésente et qui détermine la qualité de l'expérience Web.
 
-        Avec une notation en 3 niveaux de qualité *A*, *AA*, ou *AAA*, nous essayons de proposer un ensemble une liste de règles et de bonnes pratiques à appliquer pour répondre au mieux aux besoins d’un projet.
+        En tant que développeurs Web, nous produisons de l'HTML tous les jours. Nous avons à cœur de produire le meilleure code HTML possible, ce qui implique de définir ce qu'est un excellent code HTML. Pour cela, nous introduisons dans cet article la notion de *balisage pur et parfait* qui dessine un étalon de qualité en termes d'accessibilité, de sémantique et de minimisation du bruit. Afin d'adresser de façon différenciée les projets Web en fonction de leur nature (information / action / émotion) et de leurs usages (public / privé), nous proposons un classement en trois niveaux, inspiré du jeu vidéo. Le niveau *A* fixe un standard minimum acceptable, pertinent pour les usages privés de type back-office. Le niveau *AA*, ou *double-A*, fixe un standard correct pour la plupart des productions Web. Le niveau *AAA*, ou *triple-A*, fixe le standard d'excellence absolu, le *balisage pur et parfait*.
+      notes:
+        title: La naissance du Web
+        url: https://home.cern/fr/science/computing/birth-web
+    - title: Quels sont les enjeux de la qualité HTML ?
+      content: |
+        Opquast
+        Accessibilité (RGAA)
+        Eco-conception
+        Sémantique (schema.org)
+        SEO
+        Maintenabilité
+    - title: ... et fausses solutions
+      content:
+        Les frameworks CSS Bootstrap, Tailwind, Foundation...
+
+        Mieux, Ariato et PicoCSS
+
+        Les méthodologies BEM, SMACSS...
 
     - title: Système de notation
       content: |
@@ -19,7 +38,7 @@ sections:
 
         ### La durée de vie
 
-        Le site est-il déployé pour une période courte, qui n'implique pas de maintenance ni d'évolution sur le long terme ou bien est-il déployé pour une longue période, et fera l'objet d'améliorations successives ? 
+        Le site est-il déployé pour une période courte, qui n'implique pas de maintenance ni d'évolution sur le long terme ou bien est-il déployé pour une longue période, et fera l'objet d'améliorations successives ?
 
         Le site doit-il être repris par d'autres développeurs, par exemple dans le cadre d'un projet en source ouverte (open-source) ?
 
@@ -32,9 +51,9 @@ sections:
         ### Les usages
 
         Si le site a beaucoup de rédactionnel, cela peut nécessité une forte modularité des composants HTML, et tend à favoriser l'usage d'un design system précis ou une librairie (bootstrap) -- **à discuter**
-        
+
         L'accès au site est-il public ou privé ? Le site doit-il se positionner sur les moteurs de recherches ?
-    
+
     - title: A (qualité minimale)
       content: |
         ### Description
@@ -85,7 +104,7 @@ sections:
               </div>
             </div>
           </nav>
-        ``` 
+        ```
 
     - title: AA (qualité intermédiaire)
       content: |
@@ -100,7 +119,7 @@ sections:
 
         Purge CSS pour alléger
 
-        Caractéristiques : 
+        Caractéristiques :
 
         ### Exemple de contextes
 
@@ -178,7 +197,7 @@ sections:
               </div>
             </div>
           </nav>
-        ``` 
+        ```
 
     - title: AAA (qualité supérieure)
       content: |
@@ -226,7 +245,7 @@ sections:
               </ul>
             </nav>
           </header>
-        ``` 
+        ```
 
 
 

@@ -95,10 +95,11 @@ GEM
 PLATFORMS
   x86_64-darwin-18
   x86_64-darwin-20
+  x86_64-darwin-21
 
 DEPENDENCIES
   jekyll
   jekyll-theme-noesya
 
 BUNDLED WITH
-   2.2.31
+   2.2.33

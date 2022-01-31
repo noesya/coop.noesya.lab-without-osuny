@@ -1,4 +1,4 @@
 ---
-title: Recherche & Développement
+title: R&D
 position: 1
 ---

@@ -15,7 +15,7 @@ sections:
       notes:
         - title: La naissance du Web
           url: https://home.cern/fr/science/computing/birth-web
-    - title: Les enjeux de la qualité frontend
+    - title: 7 enjeux de qualité frontend
       content: |
         Le premier enjeu, évident, est le respect du standard HTML, tel que défini par le World Wide Web Consortium<sup><a href="#note-2">2</a></sup>. Depuis 2019, c'est un format unique, qui dispose d'une documentation à l'intention des devs<sup><a href="#note-3">3</a></sup>, ainsi que d'un service de validation permettant de tester son balisage<sup><a href="#note-4">4</a></sup>.
 

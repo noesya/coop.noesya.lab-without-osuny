@@ -33,7 +33,7 @@ sections:
         ### Exemple d'un menu
 
         ```html
-          <header>
+          <header role="banner">
             <a href="/">
               <img  src="https://assets.noesya.coop/images/logos/logo-noesya.svg"
                     alt="noesya" width="100" height="26">
@@ -41,7 +41,7 @@ sections:
             <button aria-label="Ouvrir / Fermer le menu">
               <!-- SVG / IMG / ::after ::before / ... -->
             </button>
-            <nav aria-label="Navigation principale">
+            <nav role="navigation" aria-label="Navigation principale">
               <ul>
                 <li>
                   <a href="/communs-numeriques">Communs numériques</a>
@@ -50,7 +50,7 @@ sections:
               </ul>
             </nav>
           </header>
-        ``` 
+        ```
 
 
 

@@ -41,7 +41,7 @@ sections:
         Mardi 1<sup>er</sup> février, de 15h à 16h30 sur
         <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>
 
-        S'inscrire à l'événement : <a href="https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/">https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/</a>
+        S'inscrire à l'événement : <a href="https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/" target="_blank" rel="nofollow">https://www.linkedin.com/events/masterclassexp-riencesinteracti6885248198013788161/about/</a>
 
 partners:
   title: Partenaires

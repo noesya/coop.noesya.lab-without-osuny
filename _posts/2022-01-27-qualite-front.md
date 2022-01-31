@@ -57,13 +57,28 @@ sections:
           url: https://fr.wikipedia.org/wiki/Rapport_signal_sur_bruit
     - title: Inventaire technologique
       content: |
-        Les frameworks CSS intrusifs (Bootstrap, Tailwind, Foundation...)
+        Rappelons quelques concepts de base pour les lecteurs et lectrices qui ne coderaient pas, ou pas du Web. Le cœur du Web est l'HTML, qui permet de structurer les informations. L'apparence de ces informations (les typographies, les couleurs, la mise en page) est définie par les feuilles de style en cascade, le CSS. Une partie de l'interactivité est directement intégrée à l'HTML, par exemple les boutons, les formulaires ou les liens hypertexte. Les comportements plus sophistiqués sont développés en JavaScript. En synthèse, nous avons donc 3 composants : l'HTML (le sens et l'interactivité basique), le CSS (l'apparence, la forme) et le JS (l'interactivité avancée).
 
-        Les frameworks respectueux (Ariato et PicoCSS)
+        La base low-tech consiste à écrire du code HTML, CSS et JS dans un éditeur de texte. Comme les pages HTML présentent de nombreux éléments répétitifs, plusieurs outils permettent de réutiliser du code d'une page sur l'autre. En termes techniques, si l'on se situe dans le cadre d'une application Web,  on codera souvent les vues du pattern Modèle Vue Controlleur (MVC), en utilisant des mécanismes de template et d'inclusion de fragments de code. Si l'on se situe dans un projet sans base de données ni technologie backend, on utilisera souvent un générateur de site statique qui propose les mêmes mécanismes. Ces infrastructures n'ont pas d'impact sur la qualité frontend (les 6 premiers enjeux), et elles permettent aux devs d'organiser leur code et de ne pas se répéter (le 7e enjeu). Nous ne détaillerons pas plus ces questions, mais nous invitons les devs à rester DRY<sup><a href="#note-10">10</a></sup>, et à utiliser pour cela les outils qui conviennent le mieux au projet et à l'équipe.
+
+        Le CSS a une syntaxe verbeuse, avec des parenthèses, des accolades, des règles de fermeture strictes et un seul niveau de déclaration. Pour pallier ces défauts, plusieurs technologies se sont développées, par exemple Sass, Less ou Stylus. On les appelle des préprocesseurs, c'est à dire des outils qui traitent un langage spécifique pour générer du CSS. Là encore, nous laissons aux devs le choix des armes, avec toutefois un point de vigilance : ces outils peuvent causer une augmentation involontaire du poids du CSS et une diminution de son efficacité. Il convient donc de les employer en surveillant la traduction CSS, et avec une bonne culture du mode d'application du CSS sur le document HTML (le Document Object Model, DOM).
+
+        Une autre école de pensée est partie de l'idée que l'on pouvait standardiser les interfaces et s'appuyer sur des classes HTML pour définir l'apparence. Ces frameworks CSS, dont le plus répandu est Bootstrap, favorisent la rapidité du développement, puisqu'on définit l'apparence  sans écrire de CSS. On gagne également du temps de formation, puisque le framework est réutilisé d'un projet à l'autre. Toutefois, ce gain se fait au prix de deux sacrifices importants. Premièrement, le balisage HTML est pollué, parfois au point que l'on cherche le contenu dans une forêt de balises définissant l'apparence. Deuxièmement, les frameworks sont lourds, puisqu'ils intègrent un grand nombre de possibilités. Afin de résoudre ce problème, certains frameworks, comme Tailwind, proposent des solutions techniques pour limiter le poids aux éléments réellement utilisés. Cela revient à choisir les outils à intégrer en fonction des besoins. L'outil PurgeCSS a été développé pour purger le CSS de toutes les directives non utilisées dans l'HTML. Cela revient à remplir un atelier de tous les outils possibles, puis à le vider en espérant laisser uniquement les outils utiles. Et dans tous les cas, l'HTML n'est pas pur.
+
+        D'autres outils ou frameworks, beaucoup plus confidentiels, sont respectueux de l'HTML et ne le surchargent pas. On peut citer Ariato<sup><a href="#note-11">11</a></sup>, développé par Base Secrète, et PicoCSS<sup><a href="#note-12">12</a></sup>, par Lucas Larroche. Ces librairies sont très pertinentes pour améliorer le rendu de base de l'HTML, par exemple pour un back-office. En revanche, elles sont volontairement minimales, et intègrent des points de vue esthétiques qui peuvent ne pas convenir en fonction du projet. Il existe aussi des librairies de comportement, comme Compass, qui permettent d'écrire plus rapidement du CSS, sans imposer de bruit HTML. Ces librairies peuvent être utile, avec la même réserve que celle exprimée pour les préprocesseurs : il faut veiller à ce que le code généré soit compact et efficient.
 
         Les méthodologies BEM, SMACSS...
 
-        Les outils de dev (Sass, Less, Stylus, Compass...)
+        frameworks JS
+
+        Libs JS
+      notes:
+        - title: DRY
+          url: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+        - title: Ariato
+          url: https://ariato.org
+        - title: PicoCSS
+          url:
     - title: Système de notation
       content: |
         En amont d'un projet, il est important de définir les critères de complexité :

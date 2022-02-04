@@ -1,7 +1,6 @@
 ---
 title: |
   Qualité frontend : à la recherche du AAA
-draft: true
 category: rd
 year: 2022
 sections:

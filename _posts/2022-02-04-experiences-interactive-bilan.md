@@ -46,25 +46,38 @@ sections:
       [Zoë Pepper](https://zoepepper.com/)
       et un pas sobre :
       [Because recollection](http://because-recollection.com/).
-  - title: Quels problèmes de sobriété numérique ?
+
+  - title: Quels problèmes de sobriété numérique ?
     content: |
-      Devices et obsolescence :
-      https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/
-      “Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”
+      *yannkozon: Est-ce qu'il n'y a pas une antinomie entre l'expérience interactive sur le web depuis plus de 15 ans et la sobriété numérique ? Les expériences full-flash avait déjà à l'époque les mêmes problématiques qu'aujourd'hui (manque d'accessibilité, besoin de perf, poids...)*
 
-      Poids
+      ### Numérique responsable
+
+      Pour comprendre les enjeux du numérique responsable :
+      [MOOC Sensibilisation Numérique Responsable (30min)](https://institutnr.org/mooc-sensibilisation-numerique-responsable) &
+      [MOOC Numérique Responsable (Complet)](https://institutnr.org/mooc-numerique-responsable-complet).
+
+      Sur les rapports entre acteurs de la tech et industries pétrolières :
+      [New Greenpeace Report Exposes Big Tech Connection to Big Oil](https://www.greenpeace.org/usa/news/new-greenpeace-report-exposes-big-tech-connection-to-big-oil/)
+
+      ### Poids et performance
+
+      Les expériences sont lourdes parce qu'il y a souvent beaucoup d'images, de vidéos, d'assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c'est-à-dire qu'il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l'obsolescence stimulée.
+
+      Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu'en termes de réseau. Peut-être qu'un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l'avant-garde technique, pas à être sobres.
+
+      Au-delà des expériences actuelles, le métaverse promet des situations encore plus problématiques. La pandémie a augmenté l'acceptabilité du concept, mais nous n'avons pas de solutions techniques viables écologiquement. Le concept est très poussé par Facebook, et d'autres acteurs qui y voient un nouveau marché, et d'importantes sources de profits. Finalement, la meilleure solution ne serait-elle pas de ne pas faire ce métaverse ?
+
+      ### Obsolescence
+
+      Sur les devices et l'obsolescence :
+      *“Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”*<br>Source : [Revealed: The climate cost of ‘disposable smartphones’](https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/)
+
+      ### Accessibilité
 
 
-      Impact du réseau: 4G/5G vs Wifi/Ethernet
-
-
+      https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex/
       Durabilité des sites?
-
-
-      “Big tech” liés à l’industrie des énergies fossiles.
-      https://www.greenpeace.org/usa/news/new-greenpeace-report-exposes-big-tech-connection-to-big-oil/
-
-      Obsolescence psychologique : l’impression d’avoir besoin de changer de device car les sites / expériences sont peu ou pas optimisées.
 
   - title: Comment faire bien (ou moins mal) ?
     content: |

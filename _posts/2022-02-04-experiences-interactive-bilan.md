@@ -49,13 +49,15 @@ sections:
 
   - title: Quels problèmes de sobriété numérique ?
     content: |
-      *yannkozon: Est-ce qu'il n'y a pas une antinomie entre l'expérience interactive sur le web depuis plus de 15 ans et la sobriété numérique ? Les expériences full-flash avait déjà à l'époque les mêmes problématiques qu'aujourd'hui (manque d'accessibilité, besoin de perf, poids...)*
+      *yannkozon* – Est-ce qu'il n'y a pas une antinomie entre l'expérience interactive sur le web depuis plus de 15 ans et la sobriété numérique ? Les expériences full-flash avait déjà à l'époque les mêmes problématiques qu'aujourd'hui (manque d'accessibilité, besoin de perf, poids...)
 
       ### Numérique responsable
 
       Pour comprendre les enjeux du numérique responsable :
       [MOOC Sensibilisation Numérique Responsable (30min)](https://institutnr.org/mooc-sensibilisation-numerique-responsable) &
       [MOOC Numérique Responsable (Complet)](https://institutnr.org/mooc-numerique-responsable-complet).
+
+      *landiaegal* — usage qui dépend de matières premières non renouvelables (avec en plus un gros conflit d'usage) = pas durable = ne peut pas durer (malgré les milliards investis dans le metavers)
 
       Sur les rapports entre acteurs de la tech et industries pétrolières :
       [New Greenpeace Report Exposes Big Tech Connection to Big Oil](https://www.greenpeace.org/usa/news/new-greenpeace-report-exposes-big-tech-connection-to-big-oil/)
@@ -70,24 +72,59 @@ sections:
 
       ### Obsolescence
 
+      *nico3rg0* — Avons-nous besoin de nouvelles applications ou devices ou bien de meilleurs services et expériences utilisateurs?
+
       Sur les devices et l'obsolescence :
       *“Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”*<br>Source : [Revealed: The climate cost of ‘disposable smartphones’](https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/)
 
-      ### Accessibilité
+      ### 3D
 
+      Le premier problème est un problème de performance, avec des technologies (webGL) qui nécessitent un device récent, et qui va utiliser beaucoup de batterie.
 
-      https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex/
-      Durabilité des sites?
+      Ensuite les librairies 3D sont lourdes, il faut questionner l'utilité avant de charger 500 ko pour faire tourner une canette.
 
-  - title: Comment faire bien (ou moins mal) ?
+      ### Interactivité et accessibilité
+
+      *Timothee_Goguely* — Accessibilité et éco-conception sont complètement liés ! Je vous renvoie au [billet de Bertrand Keller à ce sujet](https://bertrandkeller.info/2021/10/06/accessibilite-eco-conception/)
+
+      Ce n'est pas forcément un coût supplémentaire si c'est pris en compte dès le départ. C'est un travail supplémentaire uniquement si l'on considère qu'on peut faire le travail sans. C'est une question de formation des développeurs et de posture professionnelle.
+
+      *Digitzu* – Accessibilité, webperf, écoconception, RGPD, GreenUX, sécurité sont des engrenages : toute action sur l'un influence les autres.
+
+      Une expérience interactive, en faisant des choix ergonomiques atypiques et en ignorant les enjeux d'accessibilité, est malheureusement trop souvent excluante et peu accessible.
+
+      *ddsnkrs* — Pour compléter ce que vous dites sur l’éco-conception et l'accessibilité voici [un observatoire de l'impact positif](https://observatoire.bigyouth.fr/).
+
+      *nico3rg0* — [Principes d’accessibilité](https://www.w3.org/WAI/fundamentals/accessibility-principles/fr).
+
+  - title: Comment faire bien (ou moins mal) ?
     content: |
-      L’accompagnement, pédagogie, management :
-      Client (par ex: l’accessibilité ne coûte pas plus cher)
-      Au sein d’une équipe (mettre en place de référents et des ateliers)
-      Collaboration étroite entre les équipes créa et dev
+      ### Un sujet politique
+
+      *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d'avec qui vous bossez, d'à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c'est pour se retrouver à faire des sites écoconçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c'est juste du pure greenwashing.
+
+      ### Une histoire de pédagogie
+
+      *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
+
+      Il faut éduquer les clients et former les équipes à tous niveaux, en commençant par expliquer que l’accessibilité ne coûte pas plus cher si l'on s'en préoccupe dès le début, et à tous les niveaux. On peut facilement mettre en place des référents et des ateliers pour acculturer les équipes, et favoriser une collaboration étroite entre les équipes créa et dev.
+
+      *yannkozon* — Pour aider à la réflexion sur le sujet, [il y a quelques articles intéressants ici](https://graphism.fr/)
+
+      ### Des outils pour mesurer
+
+      Comment mesurer la sobriété ? [Sous le capot de la mesure Ecoindex !](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex/)
 
       Conception :
       https://sustainablewebdesign.org/strategies/
+
+      ### Des solutions techniques
+
+      De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l'absence de textures ne suffit pas.
+
+      Pour optimiser les images : utiliser les formats webp et avif une solution efficace pour optimiser les images.
+
+      ### Un hébergement sobre
 
       Boîte à outils technique :
       curiosités low tech (midi)
@@ -171,16 +208,10 @@ sections:
       (-->hébergé chez EvoSwitch aux Pays-Bas:
       https://www.greenshift.co/fr/hebergement-green.html)
 
-
-
       Islande? -> 1984hosting.com/
-
 
       CloudFlare: https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/
       Liste d’hebergeur green: https://www.thegreenwebfoundation.org/
-
-
-
 
       ​​https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/
       https://institutnr.org/guide-de-reference-de-conception-responsable
@@ -195,4 +226,5 @@ sections:
       https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf
       https://handbrake.fr/
 
+      [Lowww directory](https://lowww.directory)
 ---

@@ -9,7 +9,7 @@ sections:
       <p>La <a href="/2022/experiences-interactives-et-sobriete-numerique">masterclass “Expériences interactives et sobriété numérique”</a> a eu lieu le 1<sup>er</sup> février 2022, sur <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>.
   - title: Qu'est-ce qu'une expérience interactive ?
     content: |
-      *Jean-Frédéric* — Souvent dans la publicité, on recherche l’innovation, la première mondiale. J’aime beaucoup la définition de Georges Mohammed-Cherif (Président de Buzzman) qui disait que la publicité s’invitait chez les gens sans leur accord et que du coup, il fallait mieux arriver avec du champagne !
+      *Jean-Frédéric* — Souvent dans la publicité, on recherche l’innovation, la première mondiale. J’aime beaucoup la définition de Georges Mohammed-Cherif (Président de Buzzman) qui disait que la publicité s’invitait chez les gens sans leur accord et que du coup, il valait mieux arriver avec du champagne !
       Une expérience, c'est souvent une logique publicitaire, qui cherche l'effet wow.
       Au final, tout le monde commence à avoir la gueule de bois et si je continue sur les références publicitaires, on est un peu comme dans la campagne *Louise l’influenceuse alcoolique* de BETC.
       Créer une expérience c’est avant tout un travail d’écriture avec comme objectif de créer une émotion, de raconter une histoire, de valoriser l'utilisateur.

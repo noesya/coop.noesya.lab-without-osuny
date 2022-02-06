@@ -49,7 +49,15 @@ sections:
 
   - title: Quels problèmes de sobriété numérique ?
     content: |
-      *yannkozon* – Est-ce qu'il n'y a pas une antinomie entre l'expérience interactive sur le web depuis plus de 15 ans et la sobriété numérique ? Les expériences full-flash avait déjà à l'époque les mêmes problématiques qu'aujourd'hui (manque d'accessibilité, besoin de perf, poids...)
+      ### Les expériences sont-elles inutiles ?
+
+      *landiaegal* — Il faudrait effectivement commencer par questionner l'usage avant de réfléchir à la façon d'utiliser moins d'énergie pour alimenter cet usage, puis d'utiliser une énergie plus décarbonée, puis de faire de la compensation. En tout cas c'est ce que préconise l'ADEME, Bihouix, JMJ...
+
+      Une expérience peut être inutile, comme le sont de nombreuses autres choses : une randonnée, une balade à vélo, une œuvre d'art, est-ce utile ? L'expérience peut être de l'ordre du poétique et de l'artistique. La question fondamentale est celle du but poursuivi par l'expérience : non pas “à quoi sert-elle ?”, mais “à qui sert-elle ?”. Si l'expérience répond à un besoin réel des usagers, la situation est fondamentalement différente d'une opération commerciale qui sert l'intérêt de la marque qui la finance.
+
+      *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d'avec qui vous bossez, d'à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c'est pour se retrouver à faire des sites écoconçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c'est juste du pure greenwashing.
+
+      Il y a deux postures antagonistes face à cette question. L'insider travaille pour tous les projets, quelle que soit la marque et sa nocivité, et essaie d'améliorer la sobriété de ce qu'il produit. L'outsider refuse de travailler pour des marques qu'il ou elle juge trop toxique. La première posture considère qu'il faut améliorer l'existant (*le système est capitaliste, on ne va pas le changer mais on peut l'améliorer*), quand la seconde, plus politique, considère qu'il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
 
       ### Numérique responsable
 
@@ -64,6 +72,8 @@ sections:
 
       ### Poids et performance
 
+      *yannkozon* – Est-ce qu'il n'y a pas une antinomie entre l'expérience interactive sur le web depuis plus de 15 ans et la sobriété numérique ? Les expériences full-flash avait déjà à l'époque les mêmes problématiques qu'aujourd'hui (manque d'accessibilité, besoin de perf, poids...)
+
       Les expériences sont lourdes parce qu'il y a souvent beaucoup d'images, de vidéos, d'assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c'est-à-dire qu'il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l'obsolescence stimulée.
 
       Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu'en termes de réseau. Peut-être qu'un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l'avant-garde technique, pas à être sobres.
@@ -74,14 +84,18 @@ sections:
 
       *nico3rg0* — Avons-nous besoin de nouvelles applications ou devices ou bien de meilleurs services et expériences utilisateurs?
 
+      *Timothee_Goguely* – Rappelons quand même un point : l'impact environnemental du numérique réside essentiellement au niveau de la fabrication des terminaux (écrans, ordinateurs, smartphones…). Pour réduire cet impact, il faut donc avant tout faire durer ces terminaux les plus longtemps possible. Un site web ou une expérience interactive éco-conçue doit donc pouvoir tourner sur des terminaux et navigateurs d'il y a 5 ou 6 ans, sans quoi cela ne fait que pousser au renouvellement des terminaux, et donc augmenter considérablement son impact environnemental. Et je ne parle même pas de l'accessibilité web qui est le plus souvent reléguée au second plan voir complètement ignorée.
+
       Sur les devices et l'obsolescence :
       *“Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”*<br>Source : [Revealed: The climate cost of ‘disposable smartphones’](https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/)
 
-      ### 3D
+      ### 3D et métaverse
 
       Le premier problème est un problème de performance, avec des technologies (webGL) qui nécessitent un device récent, et qui va utiliser beaucoup de batterie.
 
       Ensuite les librairies 3D sont lourdes, il faut questionner l'utilité avant de charger 500 ko pour faire tourner une canette.
+
+      *Timothee_Goguely* – Non mais là le Metaverse, faut pas déconner non plus, il faut juste pas l'encourager et ne pas y participer !! Et ça commence par arrêter d'en parler à tout bout de champs.
 
       ### Interactivité et accessibilité
 
@@ -99,17 +113,24 @@ sections:
 
   - title: Comment faire bien (ou moins mal) ?
     content: |
-      ### Un sujet politique
-
-      *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d'avec qui vous bossez, d'à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c'est pour se retrouver à faire des sites écoconçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c'est juste du pure greenwashing.
 
       ### Une histoire de pédagogie
 
-      *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
+      *mat2long* – Dans le cas de projet web, il y a aussi beaucoup de pédagogie à faire avec ses clients, beaucoup ne se rendent même pas compte de toutes ces problématiques
 
       Il faut éduquer les clients et former les équipes à tous niveaux, en commençant par expliquer que l’accessibilité ne coûte pas plus cher si l'on s'en préoccupe dès le début, et à tous les niveaux. On peut facilement mettre en place des référents et des ateliers pour acculturer les équipes, et favoriser une collaboration étroite entre les équipes créa et dev.
 
       *yannkozon* — Pour aider à la réflexion sur le sujet, [il y a quelques articles intéressants ici](https://graphism.fr/)
+
+      *Digitzu* – 1. Recueillir les besoins - 2. Green-UX sur la fonctionnalité principale (MVP, unité fonctionnelle) - 3. Écodéveloper sobre et webperf - 4. Virer tout le reste, le gras :p
+
+      ### Des prix à réinventer
+
+      *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
+
+      Les expériences sont produites par un tout petit nombre d'acteurs (*un petit milieu qui n'a pas grand sens*) fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l'usage et l'impact.
+
+      *YunaOrsn* – Un "petit milieu qui n'a pas grand sens" mais qui fait beaucoup de bruit, vivement qu'on parle autant des initiatives plus sobres. D'ailleurs merci Hey Low pour [Lowww directory](https://lowww.directory) ;)
 
       ### Des outils pour mesurer
 
@@ -226,5 +247,5 @@ sections:
       https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf
       https://handbrake.fr/
 
-      [Lowww directory](https://lowww.directory)
+
 ---

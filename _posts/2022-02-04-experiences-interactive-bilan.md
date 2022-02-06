@@ -57,7 +57,7 @@ sections:
 
       *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d'avec qui vous bossez, d'à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c'est pour se retrouver à faire des sites écoconçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c'est juste du pur greenwashing.
 
-      Il y a deux postures antagonistes face à cette question. L'insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d'améliorer la sobriété de ce qu'il produit. L'outsider refuse de travailler pour des marques qu'il ou elle juge trop toxique. La première posture considère qu'il faut améliorer l'existant (*le système est capitaliste, on ne va pas le changer mais on peut l'améliorer*), quand la seconde, plus politique, considère qu'il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
+      Il y a deux postures antagonistes face à cette question. L'insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d'améliorer la sobriété de ce qu'il produit. L'outsider refuse de travailler pour des marques qu'il ou elle juge trop toxique. La première posture considère qu'il faut améliorer l'existant (*le système est capitaliste, on ne va pas le changer, mais on peut améliorer nos productions*), quand la seconde, plus politique, considère qu'il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
 
       ### Numérique responsable
 
@@ -88,6 +88,8 @@ sections:
 
       Sur les devices et l'obsolescence :
       *“Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”*<br>Source : [Revealed: The climate cost of ‘disposable smartphones’](https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/)
+
+      *philippepsm* — Le site de l'Ademe et [la dernière campagne liée au "Numérique Responsable"](https://longuevieauxobjets.gouv.fr/reduire-son-impact-numerique) :)
 
       ### 3D et métaverse
 
@@ -146,6 +148,11 @@ sections:
       Pour optimiser les images : utiliser les formats webp et avif une solution efficace pour optimiser les images.
 
       ### Un hébergement sobre
+
+      ### L'accessibilité n'est pas une option
+
+      *yannkozon* – L'intégration de base prend en compte l'accessibilité, sinon c'est volontairement de l'exclusion
+
 
       Boîte à outils technique :
       curiosités low tech (midi)

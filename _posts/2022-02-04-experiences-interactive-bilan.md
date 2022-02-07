@@ -119,12 +119,17 @@ sections:
       *mat2long* – Dans le cas de projet web, il y a aussi beaucoup de pédagogie à faire avec ses clients, beaucoup ne se rendent même pas compte de toutes ces problématiques
 
       Il faut éduquer les clients et former les équipes à tous niveaux, en commençant par expliquer que l’accessibilité ne coûte pas plus cher si l’on s’en préoccupe dès le début, et à tous les niveaux. On peut facilement mettre en place des référents et des ateliers pour acculturer les équipes, et favoriser une collaboration étroite entre les équipes créa et dev.
+      Le
+      [Référentiel général d’écoconception de services numériques (RGESN)](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/)
+      est un document de référence, ainsi que le
+      [guide de référence de conception responsable](https://institutnr.org/guide-de-reference-de-conception-responsable)
+      et les
+      [Strategies for Sustainable Web Design](https://sustainablewebdesign.org/strategies/)
+      fourmillent de bonnes pratiques.
 
       *yannkozon* — Pour aider à la réflexion sur le sujet, [il y a quelques articles intéressants ici](https://graphism.fr/)
 
       *Digitzu* – 1. Recueillir les besoins - 2. Green-UX sur la fonctionnalité principale (MVP, unité fonctionnelle) - 3. Écodéveloper sobre et webperf - 4. Virer tout le reste, le gras :p
-
-      [Référentiel général d'écoconception de services numériques (RGESN)](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/)
 
       ### Des prix à réinventer
 
@@ -140,31 +145,33 @@ sections:
 
       Comment mesurer la sobriété ? [Sous le capot de la mesure Ecoindex !](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex/)
 
-      Conception :
-      https://sustainablewebdesign.org/strategies/
+      La solution [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr) est disponible en extension de navigateur, dans la console Chrome, et aussi sur [web.dev](https://web.dev/measure/). Pour aller plus loin dans le suivi des sites, [Lighthouse CI](https://web.dev/lighthouse-ci/) permet d’automatiser le suivi du front sur les 4 métriques Performance, SEO, Accessibilité et Best practices. Cet outil s’intègre dans une chaîne d’intégration continue.
 
-      Travailler en simulation : throttle (network et CPU)
-      console chrome
-      Google Lighthouse en CI
-      Website carbon
-      Calcul des FPS temps réel pour switcher le niveau de qualité et réduire la consommation CPU / GPU
+      La console de développeur Chrome permet de simuler un réseau moins performant (throttle), c’est très utile pour optimiser. L’enregistrement des performances permet de mesurer les frames par seconde en temps réel, de mesurer la charge sur le processeur et la carte graphique pour pouvoir l’optimiser.
 
+      Enfin, le [Website Carbon Calculator](https://www.websitecarbon.com/) permet d’estimer l’empreinte carbone d’une page en considérant la qualité de l’hébergement et celle de la page.
 
       ### Précompiler et cacher
 
-      Cache / Précompilation / Site statique / Headless CMS
-      Cache: https://sustainablewebdesign.org/is-server-side-caching-or-static-technology-in-place-to-minimize-server-load/
+      Les technologies précompilées, comme la [Jamstack](https://jamstack.org/), permettent d’alléger la charge en processeur du côté serveur. Dans WordPress, par exemple, quand on visite une page, le serveur Apache reçoit la requête, la transfère au moteur PHP qui exécute le code de l’application, ce code se connecte à une base de données SQL, l’interroge, structure les données, génère une page HTML et la renvoie. Il faut donc que le serveur fasse tourner Apache, PHP et la base SQL, et éventuellement un service de base de cache (type Redis ou Varnish), avec ce que cela implique d’utilisation de RAM et de processeur, de nécessité d’infogérance pour éviter les problèmes de sécurité et de latence pour renvoyer une page, qui dans de nombreux cas n’a pas changé depuis la demande précédente. Dans un site précompilé, quand on visite une page, le serveur NGINX renvoie le fichier HTML déjà prêt. Lorsque du contenu est ajouté ou modifié, toutes les pages sont recompilées et renvoyées à la place des précédentes. Cela fait plus de travail à l’écriture, et moins à la lecture, ce qui est pertinent pour la plupart des sites.
 
+      Si l’on utilise pas de technologie précompilée, il est possible [d’utiliser un cache côté serveur](https://sustainablewebdesign.org/is-server-side-caching-or-static-technology-in-place-to-minimize-server-load/) afin de garder la trace de la page générée, et d’éviter de la recréer inutilement. A contrario, si l’on utilise une technologie précompilée, il est possible de gérer le contenu avec un CMS headless, un type d’outil de gestion de contenu qui sépare le back du front. Parmi ces outils, on peut citer Strapi, NetlifyCMS ou Forestry.
 
       ### Un meilleur traitement des images bitmap
 
-      Utiliser les formats webp et avif une solution efficace pour optimiser les images: [Use WebP images](https://web.dev/serve-images-webp/)
+      Utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/)
 
-      Redimensionner les images côté serveur. Plutôt que d'envoyer une grande image et de l'afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
+      Redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
-      Spritesheet image
+      *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 
-      ### Du vectoriel et de l'animation sans vidéos
+      La génération des images aux formats optimisés doit être automatisée par le développeur, cette responsabilité ne doit pas incomber aux personnes qui gèrent les contenus.
+
+      Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête.
+
+      ### Du vectoriel et de l’animation sans vidéos
+
+      Il existe de nombreuses techniques d'animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie. 
 
       Lottie
 
@@ -236,10 +243,8 @@ sections:
       CloudFlare: https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/
       Liste d’hebergeur green: https://www.thegreenwebfoundation.org/
 
-      ​​https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/
-      https://institutnr.org/guide-de-reference-de-conception-responsable
 
-      ### L’accessibilité n’est pas une option, c'est un impératif
+      ### L’accessibilité n’est pas une option, c’est un impératif
 
       *yannkozon* – L’intégration de base prend en compte l’accessibilité, sinon c’est volontairement de l’exclusion
 

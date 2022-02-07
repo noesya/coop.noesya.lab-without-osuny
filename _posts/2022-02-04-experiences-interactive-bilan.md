@@ -53,9 +53,9 @@ sections:
 
       Une expérience peut être inutile, comme le sont de nombreuses autres choses : une randonnée, une balade à vélo, une œuvre d’art, est-ce utile ? L’expérience peut être de l’ordre du poétique et de l’artistique. La question fondamentale est celle du but poursuivi par l’expérience : non pas “à quoi sert-elle ?”, mais “à qui sert-elle ?”. Si l’expérience répond à un besoin réel des usagers, la situation est fondamentalement différente d’une opération commerciale qui sert l’intérêt de la marque qui la finance.
 
-      *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d’avec qui vous bossez, d’à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c’est pour se retrouver à faire des sites écoconçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c’est juste du pur greenwashing.
+      *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d’avec qui vous bossez, d’à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c’est pour se retrouver à faire des sites éco-conçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c’est juste du pur greenwashing.
 
-      Il y a deux postures antagonistes face à cette question. L’insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d’améliorer la sobriété de sa production. L’outsider refuse de travailler pour des marques qu’il ou elle juge trop toxique. La première posture considère qu’il faut améliorer l’existant (*le système est capitaliste, on ne va pas le changer, mais on peut améliorer nos productions*), quand la seconde, plus politique, considère qu’il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
+      Il y a deux postures antagonistes face à cette question. L’insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d’améliorer la sobriété de sa production. L’outsider refuse de travailler pour des marques qu’il ou elle juge trop toxique. La première posture considère qu’il faut améliorer l’existant (*le système est capitaliste, on ne va pas le changer, mais on peut amélioreivr nos productions*), quand la seconde, plus politique, considère qu’il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
 
       *Digitzu* – Comment ne pas changer le monde actuel ET passer de 10 Tonnes CO2/personne à 2 Tonnes en 8 ans ?
 
@@ -114,7 +114,6 @@ sections:
 
   - title: Comment faire bien (ou moins mal) ?
     content: |
-
       ### Une histoire de pédagogie
 
       *mat2long* – Dans le cas de projet web, il y a aussi beaucoup de pédagogie à faire avec ses clients, beaucoup ne se rendent même pas compte de toutes ces problématiques
@@ -125,11 +124,13 @@ sections:
 
       *Digitzu* – 1. Recueillir les besoins - 2. Green-UX sur la fonctionnalité principale (MVP, unité fonctionnelle) - 3. Écodéveloper sobre et webperf - 4. Virer tout le reste, le gras :p
 
+      [Référentiel général d'écoconception de services numériques (RGESN)](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/)
+
       ### Des prix à réinventer
 
       *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
 
-      Les expériences sont produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*) fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact.
+      Les expériences sont produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*) fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact. Les prix pourraient récompenser la sobriété, soit comme une nouvelle catégorie, soit, encore mieux, comme un critère transversal pour toutes les catégories de prix.
 
       *YunaOrsn* – Un "petit milieu qui n’a pas grand sens" mais qui fait beaucoup de bruit, vivement qu’on parle autant des initiatives plus sobres. D’ailleurs merci Hey Low pour [Lowww directory](https://lowww.directory) ;)
 
@@ -142,35 +143,6 @@ sections:
       Conception :
       https://sustainablewebdesign.org/strategies/
 
-      ### Des solutions techniques
-
-      De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas.
-
-      Pour optimiser les images : utiliser les formats webp et avif une solution efficace pour optimiser les images.
-
-      ### Un hébergement sobre
-
-      ### L’accessibilité n’est pas une option
-
-      *yannkozon* – L’intégration de base prend en compte l’accessibilité, sinon c’est volontairement de l’exclusion
-
-
-      Boîte à outils technique :
-      curiosités low tech (midi)
-      contraintes créatives
-      typo
-      Ecoconception
-      vectoriel
-      animations css
-      Animation JS (sans librairie)
-      Lottie
-      Gestion des images (optimisation)
-      Hébergement
-      Spritesheet image
-      Format vidéo et image
-      L’expérience interactive pour une narration alternative à la vidéo
-      Cache / Précompilation / Site statique / Headless CMS
-      Outils pendant la production technique :
       Travailler en simulation : throttle (network et CPU)
       console chrome
       Google Lighthouse en CI
@@ -178,28 +150,27 @@ sections:
       Calcul des FPS temps réel pour switcher le niveau de qualité et réduire la consommation CPU / GPU
 
 
+      ### Précompiler et cacher
 
-      Exemples :
-
-      https://monopo.vn/ (SOTD et lowcarbon)
-      https://www.awwwards.com/sites/pienso (crédit locomotive)
+      Cache / Précompilation / Site statique / Headless CMS
+      Cache: https://sustainablewebdesign.org/is-server-side-caching-or-static-technology-in-place-to-minimize-server-load/
 
 
-      Nico:
-      https://lynnandtonic.com/
-      https://www.samuelday.de/
-      https://thanks-in-advance.com/
-      https://lowimpact.organicbasics.com/
-      “low” tech:
-      https://solarprotocol.net
-      solar.lowtechmagazine.com/
+      ### Un meilleur traitement des images bitmap
 
-      de la 3D (donc GPU etc..) mais ces sites sont assez légers en Data.
-      press.stripe.com
-      howtotalktowhitekidsaboutracism.com
+      Utiliser les formats webp et avif une solution efficace pour optimiser les images: [Use WebP images](https://web.dev/serve-images-webp/)
 
-      Laptop modulaire: https://frame.work
-      Approche intéressante sur la vidéo: http://video.gabeferreira.com/
+      Redimensionner les images côté serveur. Plutôt que d'envoyer une grande image et de l'afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
+
+      Spritesheet image
+
+      ### Du vectoriel et de l'animation sans vidéos
+
+      Lottie
+
+      L’expérience interactive pour une narration alternative à la vidéo
+      animations css
+      Animation JS (sans librairie)
 
       Vecto/Lottie/SVG :
       https://www.samuelday.de/
@@ -207,6 +178,24 @@ sections:
 
       Lottie de base (min) = 265kb
       Lottie light (min) = 147kb
+
+      ### Peu de vidéos, et bien optimisées
+
+      Approche intéressante sur la vidéo: http://video.gabeferreira.com/
+
+      Compression video:
+      https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf
+      https://handbrake.fr/
+
+
+
+      ### De la 3D si indispensable, et aussi légère que possible
+
+      De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas.
+
+      de la 3D (donc GPU etc..) mais ces sites sont assez légers en Data.
+      press.stripe.com
+      howtotalktowhitekidsaboutracism.com
 
       Three.js (min) = 604kb
 
@@ -231,7 +220,12 @@ sections:
 
       https://codepen.io/wodniack/pen/GREWWvo > vanilla JS
 
-      Hebergement :
+
+      ### La typographie, solution pour concilier esthétique, personnalité et sobriété
+
+
+      ### Un hébergement sobre
+
       infomaniak (https://www.infomaniak.com/fr/ecologie)
       Greenshift
       (-->hébergé chez EvoSwitch aux Pays-Bas:
@@ -245,15 +239,27 @@ sections:
       ​​https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/
       https://institutnr.org/guide-de-reference-de-conception-responsable
 
-      Cache: https://sustainablewebdesign.org/is-server-side-caching-or-static-technology-in-place-to-minimize-server-load/
+      ### L’accessibilité n’est pas une option, c'est un impératif
+
+      *yannkozon* – L’intégration de base prend en compte l’accessibilité, sinon c’est volontairement de l’exclusion
+
+      ### Des exemples sobres et créatifs
+
+      curiosités low tech (midi)
+      contraintes créatives
+
+      https://monopo.vn/ (SOTD et lowcarbon)
+      https://www.awwwards.com/sites/pienso (crédit locomotive)
 
 
-      Point de vue Management / Gestion de projet
-      pedagogie
+      Nico:
+      https://lynnandtonic.com/
+      https://thanks-in-advance.com/
+      https://lowimpact.organicbasics.com/
+      “low” tech:
+      https://solarprotocol.net
+      solar.lowtechmagazine.com/
 
-      Compression video:
-      https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf
-      https://handbrake.fr/
-
+      Laptop modulaire: https://frame.work
 
 ---

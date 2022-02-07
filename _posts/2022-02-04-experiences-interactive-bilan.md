@@ -159,9 +159,7 @@ sections:
 
       ### Un meilleur traitement des images bitmap
 
-      Utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/)
-
-      Redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
+      Il est souhaitable d'utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
       *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 
@@ -171,61 +169,34 @@ sections:
 
       ### Du vectoriel et de l’animation sans vidéos
 
-      Il existe de nombreuses techniques d'animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie. 
+      Il existe de nombreuses techniques d'animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie.
 
-      Lottie
+      [Lottie](https://airbnb.design/lottie/) est une technologie Open Source d'animation vectorielle portée par Airbnb. Elle permet de travailler dans After Effects, et d'exporter des animations exploitables sur le Web. Ces animations peuvent être légères à transférer et à jouer, mais ce n'est pas toujours le cas. La libraire de base pèse 265kb, et la librairie light 147kb. Quelques beaux exemples, plus ou moins sobres :
+      [Samuel Day](https://www.samuelday.de),
+      [Waaark](https://legacy.waaark.com).
+      Charger la librairie Lottie est intéressant si le site utilise beaucoup d'illustrations, mais pour 1 ou 2 ça peut être intéressant de passer par une animation en CSS ou SVG directement.
+      Un exemple de site fait tout en vidéo alors que ça aurait pu être remplacé par du lottie : [A is for Albert](http://www.aisforalbert.com).
 
-      L’expérience interactive pour une narration alternative à la vidéo
-      animations css
-      Animation JS (sans librairie)
+      Quelques animations CSS :
+      [Species in pieces](http://species-in-pieces.com),
+      [Carousel 2.5D](https://codepen.io/noahblon/pen/KwiFg),
+      [Ikko Tanaka](https://codepen.io/yuanchuan/pen/MQEeJo)
+      [Liquid (Chrome only)](https://codepen.io/yuanchuan/pen/Lwyjxd)
+      [Seeding](https://codepen.io/yuanchuan/pen/ZqbVVL).
 
-      Vecto/Lottie/SVG :
-      https://www.samuelday.de/
-      https://legacy.waaark.com/
-
-      Lottie de base (min) = 265kb
-      Lottie light (min) = 147kb
+      Quelques animations JS, avec ou sans [Matter.js (77ko)](https://brm.io/matter-js) :
+      [Mélange vanilla et matter](https://wodniack.dev),
+      [Parapluie](https://codepen.io/wodniack/pen/GREWWvo.
 
       ### Peu de vidéos, et bien optimisées
 
-      Approche intéressante sur la vidéo: http://video.gabeferreira.com/
+      Les vidéos doivent être utilisées avec grande parcimonie, c'est certainement la pire source de consommation de bande passante. L'approche expérimentale de [Gabe Ferreira](http://video.gabeferreira.com) montre des alternatives à la vidéo plein écran. Le contournement de la vidéo peut être vu comme une intéressante contrainte créative.
 
-      Compression video:
-      https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf
-      https://handbrake.fr/
+      Si les créatifs échouent, il reste à compresser au maximum la vidéo. Le Shift Project propose [ce guide](https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf) qui utilise la technologie Open Source [Handbrake](https://handbrake.fr). Par ailleurs, il est souvent préférable de passer par une plateforme de diffusion vidéo, qui va encoder la vidéo en plusieurs résolutions et adapter la diffusion en fonction de la bande passante disponible. Youtube a un player très lourd par défaut, Vimeo est bien plus optimal, et offre des options plus professionnelles.
 
+      ### 3D : oui, mais...
 
-
-      ### De la 3D si indispensable, et aussi légère que possible
-
-      De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas.
-
-      de la 3D (donc GPU etc..) mais ces sites sont assez légers en Data.
-      press.stripe.com
-      howtotalktowhitekidsaboutracism.com
-
-      Three.js (min) = 604kb
-
-      Lottie a un poids, intéressant si beaucoup d’illustrations mais pour 1 ou 2 ça peut être intéressant de passer par une animation en CSS ou SVG directement
-
-      Intérêt du SVG/Lottie = vecto = moins lourd. Par contre ça peut être lourd aussi si c’est mal fait ou si illustrations surchargées.
-
-      Quid de la perf et de l’impact sur le CPU avec les calculs des vecto comparé à de la video?
-      Un exemple de site fait tout en vidéo alors que ça aurait pu être remplacé par du lottie http://www.aisforalbert.com/
-      Animation CSS :
-      http://species-in-pieces.com/
-
-      2.5D https://codepen.io/noahblon/pen/KwiFg
-
-      Ikko Tanaka (pure CSS) https://codepen.io/yuanchuan/pen/MQEeJo
-      Liquid (Chrome only) https://codepen.io/yuanchuan/pen/Lwyjxd
-      Seeding https://codepen.io/yuanchuan/pen/ZqbVVL
-      Animation JS :
-      Animation 2d avec de la physique https://brm.io/matter-js/
-      https://wodniack.dev > mélange des deux approches : vanilla JS + matter-js
-      Matter-js (min) = 77kb
-
-      https://codepen.io/wodniack/pen/GREWWvo > vanilla JS
+      La 3D n'est pas intrinsèquement lourde ou légère. Une animation CSS 3D peut être très légère en poids et en processeur. Il est possible d'utiliser une librairie, l'une des plus utilisées étant Three.js (604kb quand même !). De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas. D'autres exemples, plus ou moins légers : [Stripe Press](https://press.stripe.com/) et [How to Talk to White Kids about Racism](howtotalktowhitekidsaboutracism.com).
 
 
       ### La typographie, solution pour concilier esthétique, personnalité et sobriété

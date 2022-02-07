@@ -57,6 +57,8 @@ sections:
 
       Il y a deux postures antagonistes face à cette question. L’insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d’améliorer la sobriété de sa production. L’outsider refuse de travailler pour des marques qu’il ou elle juge trop toxique. La première posture considère qu’il faut améliorer l’existant (*le système est capitaliste, on ne va pas le changer, mais on peut améliorer nos productions*), quand la seconde, plus politique, considère qu’il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
 
+      *Digitzu* – Comment ne pas changer le monde actuel ET passer de 10 Tonnes CO2/personne à 2 Tonnes en 8 ans ?
+
       *landiaegal* — Il faudrait effectivement commencer par questionner l’usage avant de réfléchir à la façon d’utiliser moins d’énergie pour alimenter cet usage, puis d’utiliser une énergie plus décarbonée, puis de faire de la compensation. En tout cas c’est ce que préconise l’ADEME, Bihouix, JMJ... Usage qui dépend de matières premières non renouvelables (avec en plus un gros conflit d’usage) = pas durable = ne peut pas durer (malgré les milliards investis dans le metavers)
 
       Sur les rapports entre acteurs de la tech et industries pétrolières :

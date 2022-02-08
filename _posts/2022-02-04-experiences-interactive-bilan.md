@@ -150,7 +150,7 @@ sections:
 
       Enfin, le [Website Carbon Calculator](https://www.websitecarbon.com/) permet d’estimer l’empreinte carbone d’une page en considérant la qualité de l’hébergement et celle de la page.
 
-      ### Précompiler et cacher
+      ### Cacher ou précompiler
 
       Les technologies précompilées, comme la [Jamstack](https://jamstack.org/), permettent d’alléger la charge en processeur du côté serveur. Dans WordPress, par exemple, quand on visite une page, le serveur Apache reçoit la requête, la transfère au moteur PHP qui exécute le code de l’application, ce code se connecte à une base de données SQL, l’interroge, structure les données, génère une page HTML et la renvoie. Il faut donc que le serveur fasse tourner Apache, PHP et la base SQL, et éventuellement un service de base de cache (type Redis ou Varnish), avec ce que cela implique d’utilisation de RAM et de processeur, de nécessité d’infogérance pour éviter les problèmes de sécurité et de latence pour renvoyer une page, qui dans de nombreux cas n’a pas changé depuis la demande précédente. Dans un site précompilé, quand on visite une page, le serveur NGINX renvoie le fichier HTML déjà prêt. Lorsque du contenu est ajouté ou modifié, toutes les pages sont recompilées et renvoyées à la place des précédentes. Cela fait plus de travail à l’écriture, et moins à la lecture, ce qui est pertinent pour la plupart des sites.
 
@@ -160,13 +160,17 @@ sections:
 
       Il est souhaitable d'utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
+      Des outils pour automatiser la compression des images existent, comme par exemple [Imagify](https://imagify.io/fr) pour WordPress.
+      D'autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOM](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
+
       *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 
       La génération des images aux formats optimisés doit être automatisée par le développeur, cette responsabilité ne doit pas incomber aux personnes qui gèrent les contenus.
 
-      Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête.
+      Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête. Cela dit, l'approche tombe en désuétude avec l'HTTP2.
 
       Il faut aussi veiller à ne pas charger les images avant qu'elles ne soient nécessaires, en utilisant le lazy load.
+
 
       ### Du vectoriel et de l’animation sans vidéos
 

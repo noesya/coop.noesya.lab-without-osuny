@@ -92,6 +92,8 @@ sections:
       Sur les devices et l’obsolescence :
       *“Extending the lifespan of smartphones and other electronics by just one year would save the EU as much carbon emissions as taking 2 million cars off the roads annually, a new EEB study finds.”* Source : [Revealed: The climate cost of ‘disposable smartphones’](https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/)
 
+      [Framework Laptop](https://frame.work), un ordinateur portable ultra-performant, fin et léger, conçu pour durer.
+
       ### 3D et métaverse
 
       Le premier problème est un problème de performance, avec des technologies (webGL) qui nécessitent un device récent, et qui va utiliser beaucoup de batterie. Ensuite les librairies 3D sont lourdes, il faut questionner l’utilité avant de charger 500 ko pour faire tourner une canette.
@@ -109,9 +111,6 @@ sections:
       *Digitzu* – Accessibilité, webperf, écoconception, RGPD, GreenUX, sécurité sont des engrenages : toute action sur l’un influence les autres.
 
       Une expérience interactive, en faisant des choix ergonomiques atypiques et en ignorant les enjeux d’accessibilité, est malheureusement trop souvent excluante et peu accessible.
-
-      *nico3rg0* — [Principes d’accessibilité](https://www.w3.org/WAI/fundamentals/accessibility-principles/fr).
-
   - title: Comment faire bien (ou moins mal) ?
     content: |
       ### Une histoire de pédagogie
@@ -167,7 +166,12 @@ sections:
 
       Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête.
 
+      Il faut aussi veiller à ne pas charger les images avant qu'elles ne soient nécessaires, en utilisant le lazy load.
+
       ### Du vectoriel et de l’animation sans vidéos
+
+      Le vectoriel peut être beaucoup plus léger que l'image bitmap.
+      Dans le site [Organic Basics](https://lowimpact.organicbasics.com), l'image bitmap est chargée à la demande, si l'on clique sur l'illustration vectorielle.
 
       Il existe de nombreuses techniques d'animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie.
 
@@ -175,7 +179,7 @@ sections:
       [Samuel Day](https://www.samuelday.de),
       [Waaark](https://legacy.waaark.com).
       Charger la librairie Lottie est intéressant si le site utilise beaucoup d'illustrations, mais pour 1 ou 2 ça peut être intéressant de passer par une animation en CSS ou SVG directement.
-      Un exemple de site fait tout en vidéo alors que ça aurait pu être remplacé par du lottie : [A is for Albert](http://www.aisforalbert.com).
+      Un exemple de site fait tout en vidéo alors que ça aurait pu être remplacé par du Lottie : [A is for Albert](http://www.aisforalbert.com).
 
       Quelques animations CSS :
       [Species in pieces](http://species-in-pieces.com),
@@ -188,6 +192,8 @@ sections:
       [Mélange vanilla et matter](https://wodniack.dev),
       [Parapluie](https://codepen.io/wodniack/pen/GREWWvo.
 
+      [Lynn and Tonic](https://lynnandtonic.com), un jeu avec le redimensionnement du navigateur.
+
       ### Peu de vidéos, et bien optimisées
 
       Les vidéos doivent être utilisées avec grande parcimonie, c'est certainement la pire source de consommation de bande passante. L'approche expérimentale de [Gabe Ferreira](http://video.gabeferreira.com) montre des alternatives à la vidéo plein écran. Le contournement de la vidéo peut être vu comme une intéressante contrainte créative.
@@ -196,46 +202,38 @@ sections:
 
       ### 3D : oui, mais...
 
-      La 3D n'est pas intrinsèquement lourde ou légère. Une animation CSS 3D peut être très légère en poids et en processeur. Il est possible d'utiliser une librairie, l'une des plus utilisées étant Three.js (604kb quand même !). De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas. D'autres exemples, plus ou moins légers : [Stripe Press](https://press.stripe.com/) et [How to Talk to White Kids about Racism](howtotalktowhitekidsaboutracism.com).
+      La 3D n'est pas intrinsèquement lourde ou légère.
+      Une animation CSS 3D peut être très légère en poids et en processeur.
+      Il est possible d'utiliser une librairie, l'une des plus utilisées étant Three.js (604kb quand même !).
+      De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas.
+      D'autres exemples, plus ou moins légers :
+      [Stripe Press](https://press.stripe.com/) et
+      [How to Talk to White Kids about Racism](howtotalktowhitekidsaboutracism.com),
+      [Monopo](https://monopo.vn).
 
+      ### De la belle typographie
 
-      ### La typographie, solution pour concilier esthétique, personnalité et sobriété
-
+      L'évolution des technologies Web permet d'intégrer des typographies efficacement dans des expériences.
+      Le poids d'une fonte est modeste, et l'impact visuel peut-être énorme :
+      [Pienso](https://www.awwwards.com/sites/pienso) (crédit locomotive).
+      Il est bien entendu nécessaire de limiter le nombre de familles et de variantes de graisses, mais cette contrainte créative respectée, le potentiel visuel est immense.
+      Les fontes variables permettent [des jeux d'animations](https://magnane.com) créatifs.  
+      [Thanks in advance](https://thanks-in-advance.com), un bel exemple typographique et vectoriel.
 
       ### Un hébergement sobre
 
-      infomaniak (https://www.infomaniak.com/fr/ecologie)
-      Greenshift
-      (-->hébergé chez EvoSwitch aux Pays-Bas:
-      https://www.greenshift.co/fr/hebergement-green.html)
+      Tous les hébergeurs ne se valent pas.
+      La Green Web Foundation propose [une liste d'hébergeurs "green"](https://www.thegreenwebfoundation.org/).
+      Infomaniak présente [ses actions en faveur de l'écologie](https://www.infomaniak.com/fr/ecologie),
+      Greenshift, hébergé chez EvoSwitch aux Pays-Bas, [présente les siennes](https://www.greenshift.co/fr/hebergement-green.html)
+      ainsi que [CloudFlare](https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/).
+      [1984 hosting](https://1984hosting.com/), en Islande.
 
-      Islande? -> 1984hosting.com/
-
-      CloudFlare: https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/
-      Liste d’hebergeur green: https://www.thegreenwebfoundation.org/
-
+      [Solar Protocol](http://solarprotocol.net) et [Low tech magazine](https://solar.lowtechmagazine.com) deux exemples intéressants d'hébergement solaire.
 
       ### L’accessibilité n’est pas une option, c’est un impératif
 
-      *yannkozon* – L’intégration de base prend en compte l’accessibilité, sinon c’est volontairement de l’exclusion
+      *yannkozon* – L’intégration de base prend en compte l’accessibilité, sinon c’est volontairement de l’exclusion.
 
-      ### Des exemples sobres et créatifs
-
-      curiosités low tech (midi)
-      contraintes créatives
-
-      https://monopo.vn/ (SOTD et lowcarbon)
-      https://www.awwwards.com/sites/pienso (crédit locomotive)
-
-
-      Nico:
-      https://lynnandtonic.com/
-      https://thanks-in-advance.com/
-      https://lowimpact.organicbasics.com/
-      “low” tech:
-      https://solarprotocol.net
-      solar.lowtechmagazine.com/
-
-      Laptop modulaire: https://frame.work
-
+      *nico3rg0* — [Principes d’accessibilité](https://www.w3.org/WAI/fundamentals/accessibility-principles/fr).
 ---

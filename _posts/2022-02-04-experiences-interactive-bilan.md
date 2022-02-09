@@ -55,7 +55,7 @@ sections:
 
       *Timothee_Goguely* — Avant de parler design et technique, il faudrait déjà se poser la question d’avec qui vous bossez, d’à quoi vous contribuez en bossant sur tel ou tel projet. Parce que si c’est pour se retrouver à faire des sites éco-conçus pour vendre des SUV (coucou [Volkswagen Canada](https://www.vw.ca/carbonneutralnet/fr/)), c’est juste du pur greenwashing.
 
-      Il y a deux postures antagonistes face à cette question. L’insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d’améliorer la sobriété de sa production. L’outsider refuse de travailler pour des marques qu’il ou elle juge trop toxique. La première posture considère qu’il faut améliorer l’existant (*le système est capitaliste, on ne va pas le changer, mais on peut amélioreivr nos productions*), quand la seconde, plus politique, considère qu’il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
+      Il y a deux postures antagonistes face à cette question. L’insider travaille pour tous les projets, quelle que soit la marque et sa nocivité sociale et écologique, et essaie d’améliorer la sobriété de sa production. L’outsider refuse de travailler pour des marques qu’il ou elle juge trop toxique. La première posture considère qu’il faut améliorer l’existant (*le système est capitaliste, on ne va pas le changer, mais on peut améliorer nos productions faute de mieux*), quand la seconde, plus politique, considère qu’il faut changer le système (*il faut encadrer le capitalisme et passer à une économie post-croissance*).
 
       *Digitzu* – Comment ne pas changer le monde actuel ET passer de 10 Tonnes CO2/personne à 2 Tonnes en 8 ans ?
 
@@ -79,6 +79,8 @@ sections:
 
       Les expériences sont lourdes parce qu’il y a souvent beaucoup d’images, de vidéos, d’assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c’est-à-dire qu’il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l’obsolescence stimulée.
 
+      L'interactivité et la personnalisation d'un message peuvent être des vecteurs facilitant la compréhension et l'assimilation d'un message. C'est un média actif. Un expérience peut dans certains cas s'avérer plus impactante et pertinente qu'une vidéo.
+
       Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu’en termes de réseau. Peut-être qu’un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l’avant-garde technique, pas à être sobres.
 
       Au-delà des expériences actuelles, le métaverse promet des situations encore plus problématiques. La pandémie a augmenté l’acceptabilité du concept, mais nous n’avons pas de solutions techniques viables écologiquement. Le concept est très poussé par Facebook, et d’autres acteurs qui y voient un nouveau marché, et d’importantes sources de profits. Finalement, la meilleure solution ne serait-elle pas de ne pas faire ce métaverse ?
@@ -94,7 +96,7 @@ sections:
 
       [Framework Laptop](https://frame.work), un ordinateur portable ultra-performant, fin et léger, conçu pour durer.
 
-      ### 3D et métaverse
+      ### 3D
 
       Le premier problème est un problème de performance, avec des technologies (webGL) qui nécessitent un device récent, et qui va utiliser beaucoup de batterie. Ensuite les librairies 3D sont lourdes, il faut questionner l’utilité avant de charger 500 ko pour faire tourner une canette.
 
@@ -106,7 +108,7 @@ sections:
 
       *Timothee_Goguely* — Accessibilité et éco-conception sont complètement liés ! Je vous renvoie au [billet de Bertrand Keller à ce sujet](https://bertrandkeller.info/2021/10/06/accessibilite-eco-conception/)
 
-      Ce n’est pas forcément un coût supplémentaire si c’est pris en compte dès le départ. C’est un travail supplémentaire uniquement si l’on considère qu’on peut faire le travail sans. C’est une question de formation des développeurs et de posture professionnelle.
+      Deux points de vue se confrontent : une vision “marché” et une vision “métier”. Dans la vision “marché”, c'est au client de décider s'il veut payer un site accessible ou pas. Si le client souhaite payer, l'équipe le fait, sinon, non. La vision “métier” affirme que c'est un impératif pour faire du bon travail, qu'il faut le faire quel que soit l'avis du client. Dans cette vision, ce n’est pas un coût supplémentaire parce que c’est pris en compte dès le départ et non négociable. C’est un travail supplémentaire uniquement si l’on considère qu’on peut faire le travail sans. C’est une question de formation des développeurs et de posture professionnelle.
 
       *Digitzu* – Accessibilité, webperf, écoconception, RGPD, GreenUX, sécurité sont des engrenages : toute action sur l’un influence les autres.
 
@@ -134,7 +136,7 @@ sections:
 
       *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
 
-      Les expériences sont produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*) fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact. Les prix pourraient récompenser la sobriété, soit comme une nouvelle catégorie, soit, encore mieux, comme un critère transversal pour toutes les catégories de prix.
+      Les participants à la masterclass s'accordent sur l'hypothèse d'expériences produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*), fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact. Les prix pourraient récompenser la sobriété, soit comme une nouvelle catégorie, soit, encore mieux, comme un critère transversal pour toutes les catégories de prix.
 
       *YunaOrsn* – Un "petit milieu qui n’a pas grand sens" mais qui fait beaucoup de bruit, vivement qu’on parle autant des initiatives plus sobres. D’ailleurs merci Hey Low pour [Lowww directory](https://lowww.directory) ;)
 
@@ -194,7 +196,7 @@ sections:
 
       Quelques animations JS, avec ou sans [Matter.js (77ko)](https://brm.io/matter-js) :
       [Mélange vanilla et matter](https://wodniack.dev),
-      [Parapluie](https://codepen.io/wodniack/pen/GREWWvo.
+      [Parapluie](https://codepen.io/wodniack/pen/GREWWvo]
 
       [Lynn and Tonic](https://lynnandtonic.com), un jeu avec le redimensionnement du navigateur.
 
@@ -202,7 +204,7 @@ sections:
 
       Les vidéos doivent être utilisées avec grande parcimonie, c'est certainement la pire source de consommation de bande passante. L'approche expérimentale de [Gabe Ferreira](http://video.gabeferreira.com) montre des alternatives à la vidéo plein écran. Le contournement de la vidéo peut être vu comme une intéressante contrainte créative.
 
-      Si les créatifs échouent, il reste à compresser au maximum la vidéo. Le Shift Project propose [ce guide](https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf) qui utilise la technologie Open Source [Handbrake](https://handbrake.fr). Par ailleurs, il est souvent préférable de passer par une plateforme de diffusion vidéo, qui va encoder la vidéo en plusieurs résolutions et adapter la diffusion en fonction de la bande passante disponible. Youtube a un player très lourd par défaut, Vimeo est bien plus optimal, et offre des options plus professionnelles.
+      Si les créatifs échouent, il reste à compresser au maximum la vidéo. Le Shift Project propose [ce guide](https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf) qui utilise le logiciel Open Source [Handbrake](https://handbrake.fr). Par ailleurs, il est souvent préférable de passer par une plateforme de diffusion vidéo, qui va encoder la vidéo en plusieurs résolutions et adapter la diffusion en fonction de la bande passante disponible. Youtube a un player très lourd par défaut, Vimeo est bien plus optimal, et offre des options plus professionnelles.
 
       ### 3D : oui, mais...
 

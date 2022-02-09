@@ -79,7 +79,7 @@ sections:
 
       Les expériences sont lourdes parce qu’il y a souvent beaucoup d’images, de vidéos, d’assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c’est-à-dire qu’il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l’obsolescence stimulée.
 
-      L'interactivité et la personnalisation d'un message peuvent être des vecteurs facilitant la compréhension et l'assimilation d'un message. C'est un média actif. Un expérience peut dans certains cas s'avérer plus impactante et pertinente qu'une vidéo.
+      L’interactivité et la personnalisation d’un message peuvent être des vecteurs facilitant la compréhension et l’assimilation d’un message. C’est un média actif. Un expérience peut dans certains cas s’avérer plus impactante et pertinente qu’une vidéo.
 
       Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu’en termes de réseau. Peut-être qu’un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l’avant-garde technique, pas à être sobres.
 
@@ -108,7 +108,7 @@ sections:
 
       *Timothee_Goguely* — Accessibilité et éco-conception sont complètement liés ! Je vous renvoie au [billet de Bertrand Keller à ce sujet](https://bertrandkeller.info/2021/10/06/accessibilite-eco-conception/)
 
-      Deux points de vue se confrontent : une vision “marché” et une vision “métier”. Dans la vision “marché”, c'est au client de décider s'il veut payer un site accessible ou pas. Si le client souhaite payer, l'équipe le fait, sinon, non. La vision “métier” affirme que c'est un impératif pour faire du bon travail, qu'il faut le faire quel que soit l'avis du client. Dans cette vision, ce n’est pas un coût supplémentaire parce que c’est pris en compte dès le départ et non négociable. C’est un travail supplémentaire uniquement si l’on considère qu’on peut faire le travail sans. C’est une question de formation des développeurs et de posture professionnelle.
+      Deux points de vue se confrontent : une vision “marché” et une vision “métier”. Dans la vision “marché”, c’est au client de décider s’il veut payer un site accessible ou pas. Si le client souhaite payer, l’équipe le fait, sinon, non. Dans le cas d’une expérience interactive, ce n’est pas une charge négligeable, cela peut impliquer une version complètement différente de la navigation et de la présentation des contenus. La vision “métier” affirme que c’est un impératif pour faire du bon travail, qu’il faut le faire quel que soit l’avis du client. Dans cette vision, ce n’est pas un coût supplémentaire parce que c’est pris en compte dès le départ et non négociable. C’est un travail supplémentaire uniquement si l’on considère qu’on peut faire le travail sans. C’est une question de formation des développeurs et de posture professionnelle.
 
       *Digitzu* – Accessibilité, webperf, écoconception, RGPD, GreenUX, sécurité sont des engrenages : toute action sur l’un influence les autres.
 
@@ -136,7 +136,7 @@ sections:
 
       *Digitzu* – Il manque les catégories "écoconception", "sobriété" ou "numérique responsable" sur Awwwards.
 
-      Les participants à la masterclass s'accordent sur l'hypothèse d'expériences produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*), fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact. Les prix pourraient récompenser la sobriété, soit comme une nouvelle catégorie, soit, encore mieux, comme un critère transversal pour toutes les catégories de prix.
+      Les participants à la masterclass s’accordent sur l’hypothèse d’expériences produites par un tout petit nombre d’acteurs (*un petit milieu qui n’a pas grand sens*), fascinés par le cinéma et les jeux vidéos, qui auraient aimé en faire, et qui compensent une certaine frustration. Les prix alimentent cet écosystème en rendant désirables sans jamais questionner le besoin, l’usage et l’impact. Les prix pourraient récompenser la sobriété, soit comme une nouvelle catégorie, soit, encore mieux, comme un critère transversal pour toutes les catégories de prix.
 
       *YunaOrsn* – Un "petit milieu qui n’a pas grand sens" mais qui fait beaucoup de bruit, vivement qu’on parle autant des initiatives plus sobres. D’ailleurs merci Hey Low pour [Lowww directory](https://lowww.directory) ;)
 
@@ -160,31 +160,31 @@ sections:
 
       ### Un meilleur traitement des images bitmap
 
-      Il est souhaitable d'utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
+      Il est souhaitable d’utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
       Des outils pour automatiser la compression des images existent, comme par exemple [Imagify](https://imagify.io/fr) pour WordPress.
-      D'autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOM](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
+      D’autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOM](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
 
       *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 
       La génération des images aux formats optimisés doit être automatisée par le développeur, cette responsabilité ne doit pas incomber aux personnes qui gèrent les contenus.
 
-      Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête. Cela dit, l'approche tombe en désuétude avec l'HTTP2.
+      Plutôt que d’utiliser de nombreuses petites images, on peut gagner à [utiliser un sprite CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS), une grande image qui présente côte à côte toutes les petites. Cela permet de charger plusieurs images en une seule requête. Cela dit, l’approche tombe en désuétude avec l’HTTP2.
 
-      Il faut aussi veiller à ne pas charger les images avant qu'elles ne soient nécessaires, en utilisant le lazy load.
+      Il faut aussi veiller à ne pas charger les images avant qu’elles ne soient nécessaires, en utilisant le lazy load.
 
 
       ### Du vectoriel et de l’animation sans vidéos
 
-      Le vectoriel peut être beaucoup plus léger que l'image bitmap.
-      Dans le site [Organic Basics](https://lowimpact.organicbasics.com), l'image bitmap est chargée à la demande, si l'on clique sur l'illustration vectorielle.
+      Le vectoriel peut être beaucoup plus léger que l’image bitmap.
+      Dans le site [Organic Basics](https://lowimpact.organicbasics.com), l’image bitmap est chargée à la demande, si l’on clique sur l’illustration vectorielle.
 
-      Il existe de nombreuses techniques d'animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie.
+      Il existe de nombreuses techniques d’animation, dont certaines permettent une narration alternative à la vidéo. Les animations peuvent être faites en CSS ou en JavaScript, en natif ou avec une librairie.
 
-      [Lottie](https://airbnb.design/lottie/) est une technologie Open Source d'animation vectorielle portée par Airbnb. Elle permet de travailler dans After Effects, et d'exporter des animations exploitables sur le Web. Ces animations peuvent être légères à transférer et à jouer, mais ce n'est pas toujours le cas. La libraire de base pèse 265kb, et la librairie light 147kb. Quelques beaux exemples, plus ou moins sobres :
+      [Lottie](https://airbnb.design/lottie/) est une technologie Open Source d’animation vectorielle portée par Airbnb. Elle permet de travailler dans After Effects, et d’exporter des animations exploitables sur le Web. Ces animations peuvent être légères à transférer et à jouer, mais ce n’est pas toujours le cas. La libraire de base pèse 265kb, et la librairie light 147kb. Quelques beaux exemples, plus ou moins sobres :
       [Samuel Day](https://www.samuelday.de),
       [Waaark](https://legacy.waaark.com).
-      Charger la librairie Lottie est intéressant si le site utilise beaucoup d'illustrations, mais pour 1 ou 2 ça peut être intéressant de passer par une animation en CSS ou SVG directement.
+      Charger la librairie Lottie est intéressant si le site utilise beaucoup d’illustrations, mais pour 1 ou 2 ça peut être intéressant de passer par une animation en CSS ou SVG directement.
       Un exemple de site fait tout en vidéo alors que ça aurait pu être remplacé par du Lottie : [A is for Albert](http://www.aisforalbert.com).
 
       Quelques animations CSS :
@@ -202,40 +202,40 @@ sections:
 
       ### Peu de vidéos, et bien optimisées
 
-      Les vidéos doivent être utilisées avec grande parcimonie, c'est certainement la pire source de consommation de bande passante. L'approche expérimentale de [Gabe Ferreira](http://video.gabeferreira.com) montre des alternatives à la vidéo plein écran. Le contournement de la vidéo peut être vu comme une intéressante contrainte créative.
+      Les vidéos doivent être utilisées avec grande parcimonie, c’est certainement la pire source de consommation de bande passante. L’approche expérimentale de [Gabe Ferreira](http://video.gabeferreira.com) montre des alternatives à la vidéo plein écran. Le contournement de la vidéo peut être vu comme une intéressante contrainte créative.
 
       Si les créatifs échouent, il reste à compresser au maximum la vidéo. Le Shift Project propose [ce guide](https://theshiftproject.org/wp-content/uploads/2019/09/Guide-R%C3%A9duire-le-poids-de-vos-vid%C3%A9os-en-5-minutes_V6.pdf) qui utilise le logiciel Open Source [Handbrake](https://handbrake.fr). Par ailleurs, il est souvent préférable de passer par une plateforme de diffusion vidéo, qui va encoder la vidéo en plusieurs résolutions et adapter la diffusion en fonction de la bande passante disponible. Youtube a un player très lourd par défaut, Vimeo est bien plus optimal, et offre des options plus professionnelles.
 
       ### 3D : oui, mais...
 
-      La 3D n'est pas intrinsèquement lourde ou légère.
+      La 3D n’est pas intrinsèquement lourde ou légère.
       Une animation CSS 3D peut être très légère en poids et en processeur.
-      Il est possible d'utiliser une librairie, l'une des plus utilisées étant Three.js (604kb quand même !).
+      Il est possible d’utiliser une librairie, l’une des plus utilisées étant Three.js (604kb quand même !).
       De la 3D sans texture, avec un résultat très beau : [Plume](https://plumegame.com), mais 17 mo chargées, donc l’absence de textures ne suffit pas.
-      D'autres exemples, plus ou moins légers :
+      D’autres exemples, plus ou moins légers :
       [Stripe Press](https://press.stripe.com/) et
       [How to Talk to White Kids about Racism](howtotalktowhitekidsaboutracism.com),
       [Monopo](https://monopo.vn).
 
       ### De la belle typographie
 
-      L'évolution des technologies Web permet d'intégrer des typographies efficacement dans des expériences.
-      Le poids d'une fonte est modeste, et l'impact visuel peut-être énorme :
+      L’évolution des technologies Web permet d’intégrer des typographies efficacement dans des expériences.
+      Le poids d’une fonte est modeste, et l’impact visuel peut-être énorme :
       [Pienso](https://www.awwwards.com/sites/pienso) (crédit locomotive).
       Il est bien entendu nécessaire de limiter le nombre de familles et de variantes de graisses, mais cette contrainte créative respectée, le potentiel visuel est immense.
-      Les fontes variables permettent [des jeux d'animations](https://magnane.com) créatifs.  
+      Les fontes variables permettent [des jeux d’animations](https://magnane.com) créatifs.  
       [Thanks in advance](https://thanks-in-advance.com), un bel exemple typographique et vectoriel.
 
       ### Un hébergement sobre
 
       Tous les hébergeurs ne se valent pas.
-      La Green Web Foundation propose [une liste d'hébergeurs "green"](https://www.thegreenwebfoundation.org/).
-      Infomaniak présente [ses actions en faveur de l'écologie](https://www.infomaniak.com/fr/ecologie),
+      La Green Web Foundation propose [une liste d’hébergeurs "green"](https://www.thegreenwebfoundation.org/).
+      Infomaniak présente [ses actions en faveur de l’écologie](https://www.infomaniak.com/fr/ecologie),
       Greenshift, hébergé chez EvoSwitch aux Pays-Bas, [présente les siennes](https://www.greenshift.co/fr/hebergement-green.html)
       ainsi que [CloudFlare](https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/).
       [1984 hosting](https://1984hosting.com/), en Islande.
 
-      [Solar Protocol](http://solarprotocol.net) et [Low tech magazine](https://solar.lowtechmagazine.com) deux exemples intéressants d'hébergement solaire.
+      [Solar Protocol](http://solarprotocol.net) et [Low tech magazine](https://solar.lowtechmagazine.com) deux exemples intéressants d’hébergement solaire.
 
       ### L’accessibilité n’est pas une option, c’est un impératif
 

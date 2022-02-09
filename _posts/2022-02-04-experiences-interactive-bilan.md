@@ -15,7 +15,7 @@ sections:
       Créer une expérience c’est avant tout un travail d’écriture avec comme objectif de créer une émotion, de raconter une histoire, de valoriser l’utilisateur.
       La conception de l’idée doit s’affranchir de la technique.
       On peut faire une analogie avec le cinéma des majors versus le cinéma indépendant.
-      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail écriture différent, des parties pris esthétiques différents…
+      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail écriture différent, des parti-pris esthétiques différents…
       Quelques exemples (pas sobres du tout) :
       [A short Journey](http://ashortjourney.com/),
       [Vivatech](https://www.cher-ami.tv/fr/projets/vivatech-showrooms-virtuels),

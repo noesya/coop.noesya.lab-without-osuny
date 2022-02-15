@@ -15,7 +15,7 @@ sections:
       Créer une expérience c’est avant tout un travail d’écriture avec comme objectif de créer une émotion, de raconter une histoire, de valoriser l’utilisateur.
       La conception de l’idée doit s’affranchir de la technique.
       On peut faire une analogie avec le cinéma des majors versus le cinéma indépendant.
-      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail écriture différent, des parti-pris esthétiques différents…
+      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail d'écriture différent, des parti-pris esthétiques différents…
       Quelques exemples (pas sobres du tout) :
       [A short Journey](http://ashortjourney.com/),
       [Vivatech](https://www.cher-ami.tv/fr/projets/vivatech-showrooms-virtuels),
@@ -79,7 +79,7 @@ sections:
 
       Les expériences sont lourdes parce qu’il y a souvent beaucoup d’images, de vidéos, d’assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c’est-à-dire qu’il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l’obsolescence stimulée.
 
-      L’interactivité et la personnalisation d’un message peuvent être des vecteurs facilitant la compréhension et l’assimilation d’un message. C’est un média actif. Un expérience peut dans certains cas s’avérer plus impactante et pertinente qu’une vidéo.
+      L’interactivité et la personnalisation d’un message peuvent être des vecteurs facilitant la compréhension et l’assimilation d’un message. C’est un média actif. Une expérience peut dans certains cas s’avérer plus impactante et pertinente qu’une vidéo.
 
       Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu’en termes de réseau. Peut-être qu’un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l’avant-garde technique, pas à être sobres.
 

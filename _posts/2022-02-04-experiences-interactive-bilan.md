@@ -163,7 +163,7 @@ sections:
       Il est souhaitable d’utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
       Des outils pour automatiser la compression des images existent, comme par exemple [Imagify](https://imagify.io/fr) pour WordPress.
-      D’autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOM](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
+      D’autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOMG](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
 
       *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 

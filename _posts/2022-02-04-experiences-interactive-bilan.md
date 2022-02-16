@@ -190,8 +190,8 @@ sections:
       Quelques animations CSS :
       [Species in pieces](http://species-in-pieces.com),
       [Carousel 2.5D](https://codepen.io/noahblon/pen/KwiFg),
-      [Ikko Tanaka](https://codepen.io/yuanchuan/pen/MQEeJo)
-      [Liquid (Chrome only)](https://codepen.io/yuanchuan/pen/Lwyjxd)
+      [Ikko Tanaka](https://codepen.io/yuanchuan/pen/MQEeJo),
+      [Liquid (Chrome only)](https://codepen.io/yuanchuan/pen/Lwyjxd),
       [Seeding](https://codepen.io/yuanchuan/pen/ZqbVVL).
 
       Quelques animations JS, avec ou sans [Matter.js (77ko)](https://brm.io/matter-js) :
@@ -233,7 +233,7 @@ sections:
       Infomaniak présente [ses actions en faveur de l’écologie](https://www.infomaniak.com/fr/ecologie),
       Greenshift, hébergé chez EvoSwitch aux Pays-Bas, [présente les siennes](https://www.greenshift.co/fr/hebergement-green.html)
       ainsi que [CloudFlare](https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/).
-      [1984 hosting](https://1984hosting.com/), en Islande.
+      Il y a aussi [1984 hosting](https://1984hosting.com/), en Islande.
 
       [Solar Protocol](http://solarprotocol.net) et [Low tech magazine](https://solar.lowtechmagazine.com) deux exemples intéressants d’hébergement solaire.
 

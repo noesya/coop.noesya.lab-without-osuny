@@ -5,7 +5,7 @@ year: 2022
 sections:
   - title: Le replay
     content: |
-      <p><iframe src="https://player.twitch.tv/?video=1283324228&parent=lab.noesya.coop&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe></p>
+      <p><iframe src="https://player.vimeo.com/video/679674827?h=fca5964c18&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen title="Expériences interactives et sobriété numérique"></iframe></p>
       <p>La <a href="/2022/experiences-interactives-et-sobriete-numerique">masterclass “Expériences interactives et sobriété numérique”</a> a eu lieu le 1<sup>er</sup> février 2022, sur <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>.
   - title: Qu’est-ce qu’une expérience interactive ?
     content: |

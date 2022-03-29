@@ -5,7 +5,7 @@ year: 2022
 sections:
   - title: Le replay
     content: |
-      <p><iframe src="https://player.twitch.tv/?video=1283324228&parent=lab.noesya.coop&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe></p>
+      <p><iframe src="https://player.vimeo.com/video/679674827?h=fca5964c18&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen title="Expériences interactives et sobriété numérique"></iframe></p>
       <p>La <a href="/2022/experiences-interactives-et-sobriete-numerique">masterclass “Expériences interactives et sobriété numérique”</a> a eu lieu le 1<sup>er</sup> février 2022, sur <a href="https://www.twitch.tv/noesya" target="_blank" rel="nofollow">twitch.tv/noesya</a>.
   - title: Qu’est-ce qu’une expérience interactive ?
     content: |
@@ -15,7 +15,7 @@ sections:
       Créer une expérience c’est avant tout un travail d’écriture avec comme objectif de créer une émotion, de raconter une histoire, de valoriser l’utilisateur.
       La conception de l’idée doit s’affranchir de la technique.
       On peut faire une analogie avec le cinéma des majors versus le cinéma indépendant.
-      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail écriture différent, des parti-pris esthétiques différents…
+      C’est pas évident de captiver le public avec moins de moyens mais il faut un travail d'écriture différent, des parti-pris esthétiques différents…
       Quelques exemples (pas sobres du tout) :
       [A short Journey](http://ashortjourney.com/),
       [Vivatech](https://www.cher-ami.tv/fr/projets/vivatech-showrooms-virtuels),
@@ -79,7 +79,7 @@ sections:
 
       Les expériences sont lourdes parce qu’il y a souvent beaucoup d’images, de vidéos, d’assets à télécharger, ce qui fait du temps de transfert. Mais elles sont souvent aussi lourdes en termes de performance, c’est-à-dire qu’il faut une machine très récente pour les faire tourner correctement. Et si ça rame, on peut être tenté de changer de machine, ce qui est en fait de l’obsolescence stimulée.
 
-      L’interactivité et la personnalisation d’un message peuvent être des vecteurs facilitant la compréhension et l’assimilation d’un message. C’est un média actif. Un expérience peut dans certains cas s’avérer plus impactante et pertinente qu’une vidéo.
+      L’interactivité et la personnalisation d’un message peuvent être des vecteurs facilitant la compréhension et l’assimilation d’un message. C’est un média actif. Une expérience peut dans certains cas s’avérer plus impactante et pertinente qu’une vidéo.
 
       Il y a un biais, parce que les développeurs et concepteurs sont trop bien équipés, tant en termes de machines qu’en termes de réseau. Peut-être qu’un équipement moins performant améliorerait la sobriété. Les développeurs cherchent à être à la pointe, à l’avant-garde technique, pas à être sobres.
 
@@ -163,7 +163,7 @@ sections:
       Il est souhaitable d’utiliser les formats webp et avif, une solution efficace pour optimiser les images : [Use WebP images](https://web.dev/serve-images-webp/). Il est souhaitable également de redimensionner les images côté serveur : plutôt que d’envoyer une grande image et de l’afficher en tout petit, préparer automatiquement plusieurs formats et les servir grâce aux balises pictures et srcset: [Serve responsive images](https://web.dev/serve-responsive-images/)
 
       Des outils pour automatiser la compression des images existent, comme par exemple [Imagify](https://imagify.io/fr) pour WordPress.
-      D’autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOM](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
+      D’autres outils existent pour faire ça manuellement comme [Tinyjpg](https://tinyjpg.com) ou [SVGOMG](https://jakearchibald.github.io/svgomg/) pour optimiser les SVG.
 
       *antho_parle_web* — Le pb c’est qu’à long terme les contributeurs(trices) ne suivent pas tjrs les directives données par le(la) dev.
 
@@ -190,8 +190,8 @@ sections:
       Quelques animations CSS :
       [Species in pieces](http://species-in-pieces.com),
       [Carousel 2.5D](https://codepen.io/noahblon/pen/KwiFg),
-      [Ikko Tanaka](https://codepen.io/yuanchuan/pen/MQEeJo)
-      [Liquid (Chrome only)](https://codepen.io/yuanchuan/pen/Lwyjxd)
+      [Ikko Tanaka](https://codepen.io/yuanchuan/pen/MQEeJo),
+      [Liquid (Chrome only)](https://codepen.io/yuanchuan/pen/Lwyjxd),
       [Seeding](https://codepen.io/yuanchuan/pen/ZqbVVL).
 
       Quelques animations JS, avec ou sans [Matter.js (77ko)](https://brm.io/matter-js) :
@@ -233,7 +233,7 @@ sections:
       Infomaniak présente [ses actions en faveur de l’écologie](https://www.infomaniak.com/fr/ecologie),
       Greenshift, hébergé chez EvoSwitch aux Pays-Bas, [présente les siennes](https://www.greenshift.co/fr/hebergement-green.html)
       ainsi que [CloudFlare](https://blog.cloudflare.com/green-hosting-with-cloudflare-pages/).
-      [1984 hosting](https://1984hosting.com/), en Islande.
+      Il y a aussi [1984 hosting](https://1984hosting.com/), en Islande.
 
       [Solar Protocol](http://solarprotocol.net) et [Low tech magazine](https://solar.lowtechmagazine.com) deux exemples intéressants d’hébergement solaire.
 

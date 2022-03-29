@@ -3,6 +3,10 @@ title:  Expériences interactives et sobriété numérique
 category: masterclass
 year: 2022
 sections:
+    - title: Bilan
+      content: >
+        Le [replay et le bilan de la masterclass sont disponibles](/2022/experiences-interactive-bilan).
+
     - title: Avec la participation de...
       content: >
         *Alexis Benoit* —

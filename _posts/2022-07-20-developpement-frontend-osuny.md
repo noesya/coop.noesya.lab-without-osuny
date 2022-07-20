@@ -47,18 +47,18 @@ sections:
         Pour simplifier la contribution par d'autres développeurs, on s'appuie sur Bootstrap. Mais pour optimiser, on allège le poid de la feuille de style avec Purge.
 
         Objectifs : 
-        - Vider la feuille de style avec Purge (PostCSS)
-        - N'avoir qu'un setup de PostCSS pour tous les sites
+        - vider la feuille de style avec Purge (PostCSS)
+        - n'avoir qu'un setup de PostCSS pour tous les sites
 
         Problèmes rencontrés : 
-        - Un fichier spécifique par site pour géré les classes générées spécifiques
-        - Actuellement purgecss se base sur les layouts hugo avant génération
-        - S'appuyer sur hugo_stats.json pour purger ne fonctionne pas en l'état car nous utilisons des sélecteurs CSS s'appuyant sur les attributs html (exemple : header[role="banner"])
-        - Dans le workflow de build hugo, le CSS est généré via PostCSS en même temps que le build du HTML, ça ne permet pas de s'appuyer sur le build (/public) html final pour lancer un purge.
+        - un fichier spécifique par site pour géré les classes générées spécifiques
+        - actuellement purgecss se base sur les layouts hugo avant génération
+        - s'appuyer sur hugo_stats.json pour purger ne fonctionne pas en l'état car nous utilisons des sélecteurs CSS s'appuyant sur les attributs html (exemple : header[role="banner"])
+        - dans le workflow de build hugo, le CSS est généré via PostCSS en même temps que le build du HTML, ça ne permet pas de s'appuyer sur le build (/public) html final pour lancer un purge.
         
         Pistes : 
-        - Lancer purge via npm après le build hugo, cela fonctionne mais cela peut rallonger le temps de compilation total (en fonction de la quantité de fichiers html générés)
-        - Enlever les sélecteurs de classes par attribut et utiliser hugo_stats.json pour purger.
+        - lancer purge via npm après le build hugo, cela fonctionne mais cela peut rallonger le temps de compilation total (en fonction de la quantité de fichiers html générés)
+        - enlever les sélecteurs de classes par attribut et utiliser hugo_stats.json pour purger.
     - title: Bootstrap ?
       content: |
         La situation actuelle n'est satisfaisante pour personne :

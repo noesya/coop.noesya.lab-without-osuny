@@ -14,6 +14,8 @@ sections:
       content: |
         Actuellement entre le double et le triple A, on obtient un HTML léger, assez pur, et sémantique. En vidant le html des classes (et dividers supplémentaires) bootstrap, via l'usage d'extends et des mixins sass, le style s'en trouve moins lisible et maintenable.
 
+        Faut-il simplifier l'usage de bootstrap au détriment de la qualité du html pour favoriser la maintenabilité et l'accès aux autres développeurs ?
+
     - title: Purge CSS
       content: |
         Pour simplifier la contribution par d'autres développeurs, on s'appuie sur Bootstrap. Mais pour optimiser, on allège le poid de la feuille de style avec Purge.

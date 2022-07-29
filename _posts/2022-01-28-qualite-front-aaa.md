@@ -68,5 +68,10 @@ sections:
 
         L'argument de ne pas utiliser un sélecteur contenant une url (https://schema.org) ne tient pas, car selon le web de Tim Berners-Lee, une page web est un contrat dont l'URI ne doit pas changer.
 
+    - title: Margin top ou bottom ?
+      content: |
+        ### Solution
 
----
+        Margin-top : https://matthewjamestaylor.com/css-margin-top-vs-bottom
+
+--- 

@@ -53,6 +53,20 @@ sections:
         ```
 
 
+    - title: Faire des sélecteurs via des classes CSS ou des attributs HTML ?
+      content: |
+        ### Breadcrumb
+
+        La question se pose pour le cas du breadcrumb : 
+
+        ```
+        - .breadcrumb
+        + ol[itemtype="https://schema.org/BreadcrumbList"]
+        ```
+
+        https://github.com/noesya/osuny-hugo-theme-AAA/pull/21
+
+        L'argument de ne pas utiliser un sélecteur contenant une url (https://schema.org) ne tient pas, car selon le web de Tim Berners-Lee, une page web est un contrat dont l'URI ne doit pas changer.
 
 
 ---

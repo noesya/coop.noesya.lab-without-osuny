@@ -51,10 +51,10 @@ sections:
         - n'avoir qu'un setup de PostCSS pour tous les sites
 
         Problèmes rencontrés : 
-        - un fichier spécifique par site pour géré les classes générées spécifiques
+        - un fichier spécifique par site pour éviter de purger les sélecteurs nécessaires 
         - actuellement purgecss se base sur les layouts hugo avant génération
-        - s'appuyer sur hugo_stats.json pour purger ne fonctionne pas en l'état car nous utilisons des sélecteurs CSS s'appuyant sur les attributs html (exemple : header[role="banner"])
-        - dans le workflow de build hugo, le CSS est généré via PostCSS en même temps que le build du HTML, ça ne permet pas de s'appuyer sur le build (/public) html final pour lancer un purge.
+        - s'appuyer sur hugo_stats.json pour purger ne fonctionne pas en l'état car nous utilisons des sélecteurs CSS s'appuyant sur les attributs html (exemple : header[role="banner"])
+        - dans le workflow de build Hugo, le CSS est généré via PostCSS en même temps que le build du HTML, ça ne permet pas de s'appuyer sur le build (/public) html final pour lancer un purge.
         
         Pistes : 
         - lancer purge via npm après le build hugo, cela fonctionne mais cela peut rallonger le temps de compilation total (en fonction de la quantité de fichiers html générés)
@@ -66,4 +66,5 @@ sections:
         - le code SASS est complexe et entrelacé, pas documenté, difficile à utiliser pour tout le monde
 
         Pour maintenir la qualité du code HTML, nous tentons un prototype sans Bootstrap, avec du code SASS custom.
+        Le projet constitue le [Thème Osuny AAA](https://github.com/noesya/osuny-hugo-theme-AAA).
 ---

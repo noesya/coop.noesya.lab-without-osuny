@@ -196,7 +196,7 @@ sections:
 
       Quelques animations JS, avec ou sans [Matter.js (77ko)](https://brm.io/matter-js) :
       [Mélange vanilla et matter](https://wodniack.dev),
-      [Parapluie](https://codepen.io/wodniack/pen/GREWWvo]
+      [Parapluie](https://codepen.io/wodniack/pen/GREWWvo)
 
       [Lynn and Tonic](https://lynnandtonic.com), un jeu avec le redimensionnement du navigateur.
 

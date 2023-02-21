@@ -147,6 +147,7 @@ sections:
         - ArchitectUI (538 ko)
         - PlainAdmin (675 ko)
         - Adminator (947 ko)
+        - Mazer (5,76 Mo mais 5 Mo d'images)
 
         Lourd :
         - Material Dashboard 2 (1,02 Mo)
@@ -154,9 +155,6 @@ sections:
         - Sneat (1,31 Mo)
         - CoreUI (2,15 Mo)
         - AdminKit (2,22 Mo)
-
-        Exclu parce que beaucoup trop lourd :
-        - Mazer (5,76 Mo)
 
         ### Esthétique
 
@@ -180,7 +178,6 @@ sections:
 
         ### Disqualifiés
 
-        - Mazer, beaucoup trop lourd
         - ArchitectUI, abandonné et manque de qualité
         - PlainAdmin, pas très beau
         - Voler, pas très beau
@@ -188,6 +185,7 @@ sections:
 
         ### Qualifiés
 
+        - Mazer (le seul purement libre)
         - CoreUI
         - Material Dashboard 2
         - Volt

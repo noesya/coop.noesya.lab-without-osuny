@@ -111,15 +111,15 @@ sections:
         Les thèmes qui sont de purs projets libres sont :
         - Adminator
         - Mazer
-        - AdminKit
         - Voler
 
         Les thèmes suivants sont des versions gratuites de thèmes payants :
+        - AdminKit
         - CoreUI
         - Material Dashboard 2
         - Volt
         - Sneat
-        - PlaiAdmin
+        - PlainAdmin
         - ArchitectUI
 
         ### Robuste
@@ -130,12 +130,14 @@ sections:
         - Volt
         - Mazer
 
-        Pas sûr
+        Pas sûr :
         - AdminKit (août 2022)
-        - Adminator (septembre 2021)
         - Sneat (petit projet très récent, 14 commits)
         - Voler (petit projet, août 2022)
         - PlainAdmin (petit projet très récent, 36 commits)
+
+        Pas du tout :
+        - Adminator (septembre 2021)
         - ArchitectUI (petit projet à l'abandon)
 
         ### Léger

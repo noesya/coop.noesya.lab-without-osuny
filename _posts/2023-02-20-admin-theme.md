@@ -192,5 +192,6 @@ sections:
         - AdminKit
         - Sneat
 
+        On fait un essai avec Mazer !
 
 ---

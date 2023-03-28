@@ -97,7 +97,7 @@ sections:
     - title: Quel niveau pour quel projet ?
       content: |
         ### Niveau A
-        Le premier cas d'usage que nous proposons, le moins exigeant, concerne les back-offices et les outils d'administration. Ces outils nécessitent une authentification et ne sont pas donc référencés par les moteurs de recherche.
+        Le premier cas d'usage que nous proposons, le moins exigeant, concerne les back-offices et les outils d'administration. Ces outils nécessitent une authentification et ne sont donc pas référencés par les moteurs de recherche.
 
         Passons en revue nos 7 critères : le balisage doit être respectueux du standard HTML, accessible, conforme aux règles Opquast. En revanche, ni l'excellente qualité sémantique ni la sur-optimisation SEO ne sont des impératifs, parce que le site ne sera pas indexé. La sobriété est évidemment nécessaire, mais la structure d'usage est très différente d'un site classique : peu d’utilisateurs vont utiliser l’outil, mais très fréquemment. Cela veut dire que l'utilisation du cache du navigateur est une réponse très efficace, et que l'optimisation des Web Vitals — notamment du First Contentful Paint (FCP) et du Largest Contentful Paint (LCP) — est beaucoup moins cruciale que dans un projet orienté grand public et SEO. Ce premier contexte présente très souvent des enjeux d'évolution du périmètre applicatif et de maintenabilité forts, avec de nombreux devs qui interviennent au fil du temps. Ceci justifie l'utilisation d'un framework CSS, au prix d'une réduction de la pureté de l'HTML. Cela autorise aussi une sélection réduite de librairies JavaScript, dont le poids sera d'autant plus lissé par le cache que le nombre de pages visitées sera élevé.
 
